@@ -61,4 +61,7 @@ markdown_extensions:
 plugins:
   - blog:
       blog_toc: true
+      post_excerpt: required
+      post_readtime: false
+      post_url_format: "{slug}"
   - glightbox #zoom in on pictures

@@ -1,0 +1,10 @@
+#BestPictureWinners
+SELECT ?film ?filmLabel ?duration
+WHERE 
+{
+  ?film wdt:P31 wd:Q11424. #is a film
+  ?BestPicture wdt:P279?/wdt:P31? wd:Q102427 .
+  ?film wdt:P166? ?BestPicture .            # <- movies that won best picture
+  ?film wdt:P2047 ?duration.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}

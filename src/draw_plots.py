@@ -16,16 +16,21 @@ import seaborn as sns
 from src.utils import ROOT_PATH
 
 
-def plot_duration(df):
+def plot_duration(df, association_chain: bool = False):
     fig, ax = plt.subplots()
+    
+    step_size = 30
+    min_duration = int( df.duration.min() )
+    lower_bound = (min_duration//step_size + 1) * step_size
+    max_duration = int( df.duration.max() )
+    upper_bound = (max_duration//step_size + 1) * step_size
+    bin_range = [1] + list(range(lower_bound, upper_bound+1, step_size))
+    
+    hist, bin_edges = np.histogram(df.duration, bin_range)
 
-    hist, bin_edges = np.histogram(df.duration, [1, 90, 120, 150, 180])
-
-    current_movie = df.tail(1)
-    current_hist, _ = np.histogram(current_movie.duration, [1, 90, 120, 150, 180])
-    current_i = np.where(current_hist == 1)[0][0]
-
-    labels = ["$\leq 90$ min", "$\leq 120$ min", "$\leq 150$ min", "$\leq 180$ min"]
+    labels = [f"$\leq {duration}$ min"
+              for duration
+              in bin_range[1:]]
     cmap = sns.color_palette("deep")
     patches, texts, autotexts = ax.pie(
         hist,
@@ -35,13 +40,18 @@ def plot_duration(df):
         autopct="%1.1f%%",
         colors=cmap,
     )
-    autotexts[current_i].set_color("white")
+    
+    if association_chain:
+        current_movie = df.tail(1)
+        current_hist, _ = np.histogram(current_movie.duration, bin_range)
+        current_i = np.where(current_hist == 1)[0][0]
+        autotexts[current_i].set_color("white")
 
     return fig, ax
 
 
 if __name__ == "__main__":
-    df = pd.read_csv("movie_data.csv")
+    df = pd.read_csv(ROOT_PATH / "results" / "oscars.csv")
     fig, ax = plot_duration(df)
     fig_dir = ROOT_PATH / "docs" / "assets"
     fig.savefig(fig_dir / "duration.png", bbox_inches="tight", dpi=200)
