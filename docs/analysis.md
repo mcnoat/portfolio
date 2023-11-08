@@ -2,6 +2,6 @@
 
 ## movie duration
 <figure markdown>
-  ![Image title](assets/duration.png){ width="300" }
+  ![movie duration pie chart](assets/duration.png){ width="300" }
   <figcaption>pie chart of movie durations</figcaption>
 </figure>
