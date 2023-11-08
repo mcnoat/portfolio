@@ -8,6 +8,6 @@ Created on Thu Nov  2 20:50:31 2023
 from setuptools import find_packages, setup
 
 setup(
-    name='src',
+    name="src",
     packages=find_packages(),
 )

@@ -179,7 +179,8 @@ def save_seed(function):
     @wraps(function)
     def wrapper(*args, **kwargs):
         seed = np.random.get_state()
-        path = ROOT_PATH / f"results/{function.__name__}"
+        path = ROOT_PATH / f"results/{function.__name__}/seeds"
+        ensure_directory_exists(path)
         with open(path / f"{kwargs['partial_fname']}_seed.pkl", "wb") as file:
             pickle.dump(seed, file)
         output = function(*args, **kwargs)
