@@ -1,0 +1,59 @@
+site_name: Moritz Schubert      
+theme: # everything design related
+  name: material
+  features:
+    - navigation.top #back-to-top button
+    - toc.integrate  #the right ToC sidebar is removed and integrated on the left 
+  font:
+    code: Roboto Mono
+  language: en
+  logo: assets/logo.png
+  palette:
+    scheme: slate #dark mode
+    primary: teal
+    accent: blue grey
+nav:
+  - Home: index.md
+  - About: about.md
+  - CV: cv.md
+  - Movie analysis: analysis.md
+docs_dir: docs
+extra:
+  social:
+    - icon: material/email
+      link: mailto:moritzschubert@posteo.de
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/in/moritz-schubert-data-scientist/
+    - icon: simple/github
+      link: https://github.com/mcnoat
+    - icon: simple/mastodon
+      link: https://mastodontech.de/@schubertatwork
+    - icon: simple/letterboxd
+      link: https://letterboxd.com/Zamomin/
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - codehilite
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
