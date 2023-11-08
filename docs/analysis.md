@@ -1,8 +1,7 @@
 # Movie analysis
 
 ## movie duration
-<div title="movie durations!">
-<img src="../assets/duration.png"
-     alt="bar plot summarizing the movies' durations"
-     style="height:400px;">
-</div>
+<figure markdown>
+  ![Image title](assets/duration.png){ width="300" }
+  <figcaption>pie chart of movie durations</figcaption>
+</figure>

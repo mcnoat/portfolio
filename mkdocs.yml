@@ -2,6 +2,7 @@ site_name: Moritz Schubert
 theme: # everything design related
   name: material
   features:
+    - navigation.tabs
     - navigation.top #back-to-top button
     - toc.integrate  #the right ToC sidebar is removed and integrated on the left 
   font:
@@ -56,4 +57,5 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+plugins:
+  - glightbox
