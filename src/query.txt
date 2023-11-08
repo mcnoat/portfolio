@@ -1,0 +1,12 @@
+
+SELECT ?filmLabel ?duration ?directorLabel ?film ?gender_of_directorLabel ?countryLabel ?continentLabel
+WHERE {
+    VALUES ?film { wd:Q531328 wd:Q378913 wd:Q20382729 wd:Q25339558 wd:Q937762 wd:Q55402791 wd:Q125772 wd:Q33129472 wd:Q97304180  }
+    OPTIONAL {?film wdt:P57 ?director.
+               ?film wdt:P2047 ?duration.
+               ?director wdt:P21 ?gender_of_director.
+               ?film wdt:P495 ?country.
+               ?country wdt:P30 ?continent.}
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  }
