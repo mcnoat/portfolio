@@ -23,7 +23,7 @@ docs_dir: docs
 extra:
   social:
     - icon: material/email
-      link: mailto:moritzschubert@posteo.de
+      link: mailto:schubert-at-work@posteo.de
     - icon: simple/linkedin
       link: https://www.linkedin.com/in/moritz-schubert-data-scientist/
     - icon: simple/github
@@ -61,6 +61,8 @@ markdown_extensions:
 plugins:
   - blog:
       blog_toc: true
+      draft: false #whether to display drafts in production
+      draft_on_serve: true
       post_excerpt: required
       post_readtime: false
       post_url_format: "{slug}"
