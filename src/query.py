@@ -12,22 +12,29 @@ import requests
 # custom scripts
 from src.utils import ROOT_PATH
 
+
 def query_wikidata(query: str):
     url = "https://query.wikidata.org/sparql"
     data = requests.get(url, params={"query": query, "format": "json"}).json()
-    
+
     return data
 
 
 def wikidata_to_df(data: dict):
-    df = pd.DataFrame({"name": pd.Series([], dtype=str),
-                       "duration": pd.Series([], dtype=int)})
+    df = pd.DataFrame(
+        {"name": pd.Series([], dtype=str), "duration": pd.Series([], dtype=int)}
+    )
     for i, datum in enumerate(data["results"]["bindings"]):
-        df.loc[i, "name"] = datum["filmLabel"]["value"]
-        df.loc[i, "duration"]  = int(datum["duration"]["value"])
-    
+        film_name = datum["filmLabel"]["value"]
+        if film_name not in df.loc[:, "name"].to_list():
+            df.loc[i, "name"] = datum["filmLabel"]["value"]
+            df.loc[i, "duration"] = int(datum["duration"]["value"])
+            df.loc[i, "director1"] = datum["directorLabel"]["value"]
+        else:
+            continue
+
     return df
-        
+
 
 if __name__ == "__main__":
     with open("oscars.sparql", "r") as file:

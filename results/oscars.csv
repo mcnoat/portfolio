@@ -1,98 +1,96 @@
-name,duration
-Gone with the Wind,238.0
-Dances with Wolves,181.0
-Dances with Wolves,236.0
-American Beauty,121.0
-Hamlet,150.0
-Titanic,194.0
-The Godfather,175.0
-Argo,120.0
-The Sound of Music,174.0
-Midnight Cowboy,108.0
-The Sting,129.0
-The English Patient,162.0
-Unforgiven,131.0
-Slumdog Millionaire,120.0
-Gladiator,155.0
-The Lord of the Rings: The Return of the King,201.0
-Casablanca,102.0
-The Silence of the Lambs,118.0
-Forrest Gump,136.0
-Oliver!,146.0
-The King's Speech,118.0
-Braveheart,177.0
-A Beautiful Mind,135.0
-One Flew Over the Cuckoo's Nest,133.0
-The Artist,100.0
-The Departed,152.0
-Ben-Hur,222.0
-Shakespeare in Love,123.0
-The Hurt Locker,131.0
-No Country for Old Men,122.0
-Million Dollar Baby,132.0
-The Godfather Part II,202.0
-Terms of Endearment,132.0
-Crash,112.0
-Crash,115.0
-Rocky,119.0
-The Bridge on the River Kwai,156.0
-Rain Man,128.0
-Chicago,113.0
-Platoon,115.0
-Amadeus,161.0
-Kramer vs. Kramer,100.0
-All About Eve,138.0
-My Fair Lady,171.0
-The Deer Hunter,182.0
-Gandhi,181.0
-Rebecca,126.0
-From Here to Eternity,118.0
-Chariots of Fire,118.0
-Out of Africa,160.0
-It Happened One Night,105.0
-On the Waterfront,108.0
-Driving Miss Daisy,99.0
-The Last Emperor,165.0
-Patton,170.0
-A Man for All Seasons,118.0
-The French Connection,104.0
-Lawrence of Arabia,216.0
-Annie Hall,93.0
-Marty,91.0
-The Lost Weekend,101.0
-How Green Was My Valley,118.0
-Grand Hotel,113.0
-Cimarron,131.0
-The Apartment,125.0
-Wings,141.0
-All Quiet on the Western Front,136.0
-West Side Story,150.0
-Tom Jones,128.0
-Parasite,132.0
-Nomadland,107.0
-Everything Everywhere All at Once,139.0
-CODA,111.0
-Mutiny on the Bounty,132.0
-The Broadway Melody,110.0
-Going My Way,130.0
-The Great Ziegfeld,176.0
-Mrs. Miniver,134.0
-Schindler's List,195.0
-Ordinary People,124.0
-Gigi,119.0
-In the Heat of the Night,109.0
-You Can't Take It With You,126.0
-The Greatest Show on Earth,152.0
-The Best Years of Our Lives,172.0
-Around the World in 80 Days,184.0
-The Life of Emile Zola,116.0
-An American in Paris,108.0
-Cavalcade,110.0
-All the King's Men,109.0
-Gentleman's Agreement,118.0
-12 Years a Slave,133.0
-Birdman,119.0
-Spotlight,127.0
-Moonlight,111.0
-The Shape of Water,123.0
-Green Book,130.0
+name,duration,director1
+Moonlight,111.0,Barry Jenkins
+The Shape of Water,123.0,Guillermo del Toro
+Green Book,130.0,Peter Farrelly
+Parasite,132.0,Bong Joon-ho
+Nomadland,107.0,Chloé Zhao
+Everything Everywhere All at Once,139.0,Dan Kwan
+CODA,111.0,Siân Héder
+Unforgiven,131.0,Clint Eastwood
+Slumdog Millionaire,120.0,Danny Boyle
+Gladiator,155.0,Ridley Scott
+The Lord of the Rings: The Return of the King,201.0,Peter Jackson
+Casablanca,102.0,Michael Curtiz
+The Silence of the Lambs,118.0,Jonathan Demme
+Forrest Gump,136.0,Robert Zemeckis
+Oliver!,146.0,Carol Reed
+The King's Speech,118.0,Tom Hooper
+Braveheart,177.0,Mel Gibson
+A Beautiful Mind,135.0,Ron Howard
+One Flew Over the Cuckoo's Nest,133.0,Miloš Forman
+The Artist,100.0,Michel Hazanavicius
+The Departed,152.0,Martin Scorsese
+Ben-Hur,222.0,William Wyler
+Shakespeare in Love,123.0,John Madden
+The Hurt Locker,131.0,Kathryn Bigelow
+No Country for Old Men,122.0,Joel Coen
+Million Dollar Baby,132.0,Clint Eastwood
+The Godfather Part II,202.0,Francis Ford Coppola
+Terms of Endearment,132.0,James L. Brooks
+Crash,112.0,Paul Haggis
+Rocky,119.0,John G. Avildsen
+The Bridge on the River Kwai,156.0,David Lean
+Rain Man,128.0,Barry Levinson
+Chicago,113.0,Rob Marshall
+Platoon,115.0,Oliver Stone
+Amadeus,161.0,Miloš Forman
+Kramer vs. Kramer,100.0,Robert Benton
+All About Eve,138.0,Joseph L. Mankiewicz
+My Fair Lady,171.0,George Cukor
+The Deer Hunter,182.0,Michael Cimino
+Gandhi,181.0,Richard Attenborough
+Rebecca,126.0,Alfred Hitchcock
+From Here to Eternity,118.0,Fred Zinnemann
+Chariots of Fire,118.0,Hugh Hudson
+Out of Africa,160.0,Sydney Pollack
+It Happened One Night,105.0,Frank Capra
+Driving Miss Daisy,99.0,Bruce Beresford
+On the Waterfront,108.0,Elia Kazan
+The Last Emperor,165.0,Bernardo Bertolucci
+Patton,170.0,Franklin J. Schaffner
+A Man for All Seasons,118.0,Fred Zinnemann
+The French Connection,104.0,William Friedkin
+Lawrence of Arabia,216.0,David Lean
+Annie Hall,93.0,Woody Allen
+Marty,91.0,Delbert Mann
+The Lost Weekend,101.0,Billy Wilder
+How Green Was My Valley,118.0,John Ford
+Grand Hotel,113.0,Edmund Goulding
+Cimarron,131.0,Wesley Ruggles
+The Apartment,125.0,Billy Wilder
+Wings,141.0,William Augustus Wellman
+All Quiet on the Western Front,136.0,Lewis Milestone
+West Side Story,150.0,Robert Wise
+Tom Jones,128.0,Tony Richardson
+Mutiny on the Bounty,132.0,Frank Lloyd
+The Broadway Melody,110.0,Harry Beaumont
+Going My Way,130.0,Leo McCarey
+The Great Ziegfeld,176.0,Robert Z. Leonard
+Mrs. Miniver,134.0,William Wyler
+Schindler's List,195.0,Steven Spielberg
+Ordinary People,124.0,Robert Redford
+Gigi,119.0,Vincente Minnelli
+In the Heat of the Night,109.0,Norman Jewison
+You Can't Take It With You,126.0,Frank Capra
+The Greatest Show on Earth,152.0,Cecil B. DeMille
+The Best Years of Our Lives,172.0,William Wyler
+Around the World in 80 Days,184.0,Michael Anderson
+The Life of Emile Zola,116.0,William Dieterle
+An American in Paris,108.0,Vincente Minnelli
+Cavalcade,110.0,Frank Lloyd
+All the King's Men,109.0,Robert Rossen
+Gentleman's Agreement,118.0,Elia Kazan
+12 Years a Slave,133.0,Steve McQueen
+Birdman,119.0,Alejandro González Iñárritu
+Spotlight,127.0,Tom McCarthy
+Gone with the Wind,238.0,George Cukor
+Dances with Wolves,181.0,Kevin Costner
+American Beauty,121.0,Sam Mendes
+Hamlet,150.0,Laurence Olivier
+Titanic,194.0,James Cameron
+The Godfather,175.0,Francis Ford Coppola
+Argo,120.0,Ben Affleck
+The Sound of Music,174.0,Robert Wise
+Midnight Cowboy,108.0,John Schlesinger
+The Sting,129.0,George Roy Hill
+The English Patient,162.0,Anthony Minghella
