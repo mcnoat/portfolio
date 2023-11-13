@@ -18,19 +18,17 @@ from src.utils import ROOT_PATH
 
 def plot_duration(df, association_chain: bool = False):
     fig, ax = plt.subplots()
-    
+
     step_size = 30
-    min_duration = int( df.duration.min() )
-    lower_bound = (min_duration//step_size + 1) * step_size
-    max_duration = int( df.duration.max() )
-    upper_bound = (max_duration//step_size + 1) * step_size
-    bin_range = [1] + list(range(lower_bound, upper_bound+1, step_size))
-    
+    min_duration = int(df.duration.min())
+    lower_bound = (min_duration // step_size + 1) * step_size
+    max_duration = int(df.duration.max())
+    upper_bound = (max_duration // step_size + 1) * step_size
+    bin_range = [1] + list(range(lower_bound, upper_bound + 1, step_size))
+
     hist, bin_edges = np.histogram(df.duration, bin_range)
 
-    labels = [f"$\leq {duration}$ min"
-              for duration
-              in bin_range[1:]]
+    labels = [f"$\leq {duration}$ min" for duration in bin_range[1:]]
     cmap = sns.color_palette("deep")
     patches, texts, autotexts = ax.pie(
         hist,
@@ -40,7 +38,7 @@ def plot_duration(df, association_chain: bool = False):
         autopct="%1.1f%%",
         colors=cmap,
     )
-    
+
     if association_chain:
         current_movie = df.tail(1)
         current_hist, _ = np.histogram(current_movie.duration, bin_range)
@@ -48,6 +46,10 @@ def plot_duration(df, association_chain: bool = False):
         autotexts[current_i].set_color("white")
 
     return fig, ax
+
+
+def plot_gender(df):
+    fig, ax = plt.subplots()
 
 
 if __name__ == "__main__":

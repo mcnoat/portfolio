@@ -13,12 +13,12 @@ import requests
 from src import utils
 from src.utils import ROOT_PATH
 
+
 def query_wikidata(query: str):
     url = "https://query.wikidata.org/sparql"
     data = requests.get(url, params={"query": query, "format": "json"}).json()
-    
-    return data
 
+    return data
 
 def wikidata_to_json(data: dict):
     json = []
@@ -34,7 +34,7 @@ def wikidata_to_json(data: dict):
                      "duration": duration})
     
     return json
-        
+
 
 if __name__ == "__main__":
     with open("oscars.sparql", "r") as file:
