@@ -1,0 +1,390 @@
+[
+  {
+    "name": "12 Years a Slave",
+    "duration": 133
+  },
+  {
+    "name": "A Beautiful Mind",
+    "duration": 135
+  },
+  {
+    "name": "A Man for All Seasons",
+    "duration": 118
+  },
+  {
+    "name": "All About Eve",
+    "duration": 138
+  },
+  {
+    "name": "All Quiet on the Western Front",
+    "duration": 136
+  },
+  {
+    "name": "All the King's Men",
+    "duration": 109
+  },
+  {
+    "name": "Amadeus",
+    "duration": 161
+  },
+  {
+    "name": "American Beauty",
+    "duration": 121
+  },
+  {
+    "name": "An American in Paris",
+    "duration": 108
+  },
+  {
+    "name": "Annie Hall",
+    "duration": 93
+  },
+  {
+    "name": "Argo",
+    "duration": 120
+  },
+  {
+    "name": "Around the World in 80 Days",
+    "duration": 184
+  },
+  {
+    "name": "Ben-Hur",
+    "duration": 222
+  },
+  {
+    "name": "Birdman",
+    "duration": 119
+  },
+  {
+    "name": "Braveheart",
+    "duration": 177
+  },
+  {
+    "name": "CODA",
+    "duration": 111
+  },
+  {
+    "name": "Casablanca",
+    "duration": 102
+  },
+  {
+    "name": "Cavalcade",
+    "duration": 110
+  },
+  {
+    "name": "Chariots of Fire",
+    "duration": 118
+  },
+  {
+    "name": "Chicago",
+    "duration": 113
+  },
+  {
+    "name": "Cimarron",
+    "duration": 131
+  },
+  {
+    "name": "Crash",
+    "duration": 112
+  },
+  {
+    "name": "Crash",
+    "duration": 115
+  },
+  {
+    "name": "Dances with Wolves",
+    "duration": 181
+  },
+  {
+    "name": "Dances with Wolves",
+    "duration": 236
+  },
+  {
+    "name": "Driving Miss Daisy",
+    "duration": 99
+  },
+  {
+    "name": "Everything Everywhere All at Once",
+    "duration": 139
+  },
+  {
+    "name": "Forrest Gump",
+    "duration": 136
+  },
+  {
+    "name": "From Here to Eternity",
+    "duration": 118
+  },
+  {
+    "name": "Gandhi",
+    "duration": 181
+  },
+  {
+    "name": "Gentleman's Agreement",
+    "duration": 118
+  },
+  {
+    "name": "Gigi",
+    "duration": 119
+  },
+  {
+    "name": "Gladiator",
+    "duration": 155
+  },
+  {
+    "name": "Going My Way",
+    "duration": 130
+  },
+  {
+    "name": "Gone with the Wind",
+    "duration": 238
+  },
+  {
+    "name": "Grand Hotel",
+    "duration": 113
+  },
+  {
+    "name": "Green Book",
+    "duration": 130
+  },
+  {
+    "name": "Hamlet",
+    "duration": 150
+  },
+  {
+    "name": "How Green Was My Valley",
+    "duration": 118
+  },
+  {
+    "name": "In the Heat of the Night",
+    "duration": 109
+  },
+  {
+    "name": "It Happened One Night",
+    "duration": 105
+  },
+  {
+    "name": "Kramer vs. Kramer",
+    "duration": 100
+  },
+  {
+    "name": "Lawrence of Arabia",
+    "duration": 216
+  },
+  {
+    "name": "Marty",
+    "duration": 91
+  },
+  {
+    "name": "Midnight Cowboy",
+    "duration": 108
+  },
+  {
+    "name": "Million Dollar Baby",
+    "duration": 132
+  },
+  {
+    "name": "Moonlight",
+    "duration": 111
+  },
+  {
+    "name": "Mrs. Miniver",
+    "duration": 134
+  },
+  {
+    "name": "Mutiny on the Bounty",
+    "duration": 132
+  },
+  {
+    "name": "My Fair Lady",
+    "duration": 171
+  },
+  {
+    "name": "No Country for Old Men",
+    "duration": 122
+  },
+  {
+    "name": "Nomadland",
+    "duration": 107
+  },
+  {
+    "name": "Oliver!",
+    "duration": 146
+  },
+  {
+    "name": "On the Waterfront",
+    "duration": 108
+  },
+  {
+    "name": "One Flew Over the Cuckoo's Nest",
+    "duration": 133
+  },
+  {
+    "name": "Ordinary People",
+    "duration": 124
+  },
+  {
+    "name": "Out of Africa",
+    "duration": 160
+  },
+  {
+    "name": "Parasite",
+    "duration": 132
+  },
+  {
+    "name": "Patton",
+    "duration": 170
+  },
+  {
+    "name": "Platoon",
+    "duration": 115
+  },
+  {
+    "name": "Rain Man",
+    "duration": 128
+  },
+  {
+    "name": "Rebecca",
+    "duration": 126
+  },
+  {
+    "name": "Rocky",
+    "duration": 119
+  },
+  {
+    "name": "Schindler's List",
+    "duration": 195
+  },
+  {
+    "name": "Shakespeare in Love",
+    "duration": 123
+  },
+  {
+    "name": "Slumdog Millionaire",
+    "duration": 120
+  },
+  {
+    "name": "Spotlight",
+    "duration": 127
+  },
+  {
+    "name": "Terms of Endearment",
+    "duration": 132
+  },
+  {
+    "name": "The Apartment",
+    "duration": 125
+  },
+  {
+    "name": "The Artist",
+    "duration": 100
+  },
+  {
+    "name": "The Best Years of Our Lives",
+    "duration": 172
+  },
+  {
+    "name": "The Bridge on the River Kwai",
+    "duration": 156
+  },
+  {
+    "name": "The Broadway Melody",
+    "duration": 110
+  },
+  {
+    "name": "The Deer Hunter",
+    "duration": 182
+  },
+  {
+    "name": "The Departed",
+    "duration": 152
+  },
+  {
+    "name": "The English Patient",
+    "duration": 162
+  },
+  {
+    "name": "The French Connection",
+    "duration": 104
+  },
+  {
+    "name": "The Godfather",
+    "duration": 175
+  },
+  {
+    "name": "The Godfather Part II",
+    "duration": 202
+  },
+  {
+    "name": "The Great Ziegfeld",
+    "duration": 176
+  },
+  {
+    "name": "The Greatest Show on Earth",
+    "duration": 152
+  },
+  {
+    "name": "The Hurt Locker",
+    "duration": 131
+  },
+  {
+    "name": "The King's Speech",
+    "duration": 118
+  },
+  {
+    "name": "The Last Emperor",
+    "duration": 165
+  },
+  {
+    "name": "The Life of Emile Zola",
+    "duration": 116
+  },
+  {
+    "name": "The Lord of the Rings: The Return of the King",
+    "duration": 201
+  },
+  {
+    "name": "The Lost Weekend",
+    "duration": 101
+  },
+  {
+    "name": "The Shape of Water",
+    "duration": 123
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "duration": 118
+  },
+  {
+    "name": "The Sound of Music",
+    "duration": 174
+  },
+  {
+    "name": "The Sting",
+    "duration": 129
+  },
+  {
+    "name": "Titanic",
+    "duration": 194
+  },
+  {
+    "name": "Tom Jones",
+    "duration": 128
+  },
+  {
+    "name": "Unforgiven",
+    "duration": 131
+  },
+  {
+    "name": "West Side Story",
+    "duration": 150
+  },
+  {
+    "name": "Wings",
+    "duration": 141
+  },
+  {
+    "name": "You Can't Take It With You",
+    "duration": 126
+  }
+]

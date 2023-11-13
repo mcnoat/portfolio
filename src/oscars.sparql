@@ -8,3 +8,4 @@ WHERE
   ?film wdt:P2047 ?duration.
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 }
+ORDER BY ASC(?filmLabel)

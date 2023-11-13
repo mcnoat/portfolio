@@ -6,10 +6,11 @@ Created on Wed Nov  8 17:38:57 2023
 """
 
 # Python package index
-import pandas as pd
+import jmespath
 import requests
 
 # custom scripts
+from src import utils
 from src.utils import ROOT_PATH
 
 def query_wikidata(query: str):
@@ -19,21 +20,27 @@ def query_wikidata(query: str):
     return data
 
 
-def wikidata_to_df(data: dict):
-    df = pd.DataFrame({"name": pd.Series([], dtype=str),
-                       "duration": pd.Series([], dtype=int)})
-    for i, datum in enumerate(data["results"]["bindings"]):
-        df.loc[i, "name"] = datum["filmLabel"]["value"]
-        df.loc[i, "duration"]  = int(datum["duration"]["value"])
+def wikidata_to_json(data: dict):
+    json = []
+    for d in data["results"]["bindings"]:
+        name: str = d["filmLabel"]["value"]
+        duration: int = int(d["duration"]["value"])
+        #director: str = d["directorLabel"]["value"]
+        
+        if json and json[-1]["name"] == name:
+            print("This should not happen")
+            print(json[-1]["name"])
+        json.append({"name": name,
+                     "duration": duration})
     
-    return df
+    return json
         
 
 if __name__ == "__main__":
     with open("oscars.sparql", "r") as file:
         query = file.read()
     data = query_wikidata(query)
-    df = wikidata_to_df(data)
+    json = wikidata_to_json(data)
     results_dir = ROOT_PATH / "results"
     assert results_dir.exists()
-    df.to_csv(results_dir / "oscars.csv", index=False)
+    utils.dump_json(json, results_dir / "oscars.json")
