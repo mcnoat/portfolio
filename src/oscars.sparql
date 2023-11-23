@@ -1,14 +1,17 @@
 #BestPictureWinners
-SELECT ?filmLabel ?duration ?directorLabel ?film ?gender_of_directorLabel
+SELECT ?filmLabel ?directorLabel ?genderLabel ?duration ?versionLabel ?film
 WHERE 
 {
   ?film wdt:P31 wd:Q11424. #is a film
-  ?BestPicture wdt:P279? wd:Q102427 . # P279: subclass of
-  ?film wdt:P166? ?BestPicture .            # <- movies that won best picture
-  ?film wdt:P2047 ?duration.
-      OPTIONAL {?film wdt:P57 ?director.
-               ?film wdt:P2047 ?duration.
-               ?director wdt:P21 ?gender_of_director.}
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  ?film wdt:P166 wd:Q102427 . # won best picture
+  
+  OPTIONAL {?film wdt:P57 ?director.}
+  OPTIONAL {?director wdt:P21 ?gender.}
+  OPTIONAL {?film p:P2047 ?durationStatement.} # this gets us into the "duration box" of the Wikidate page for the film
+  OPTIONAL {?durationStatement ps:P2047 ?duration.}
+            ?durationStatement a wikibase:BestRank . # this gets information out of the "duration box"
+  OPTIONAL {?durationStatement pq:P518 ?version.} # this gets information out of the "duration box"
+  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
-ORDER BY ASC(?filmLabel)
+ORDER BY (?filmLabel)

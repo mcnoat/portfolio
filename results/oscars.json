@@ -1,390 +1,992 @@
 [
   {
     "name": "12 Years a Slave",
-    "duration": 133
+    "duration": 133,
+    "director": [
+      {
+        "name": "Steve McQueen",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "A Beautiful Mind",
-    "duration": 135
+    "duration": 135,
+    "director": [
+      {
+        "name": "Ron Howard",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "A Man for All Seasons",
-    "duration": 118
+    "duration": 118,
+    "director": [
+      {
+        "name": "Fred Zinnemann",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "All About Eve",
-    "duration": 138
+    "duration": 138,
+    "director": [
+      {
+        "name": "Joseph L. Mankiewicz",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "All Quiet on the Western Front",
-    "duration": 136
+    "duration": 136,
+    "director": [
+      {
+        "name": "Lewis Milestone",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "All the King's Men",
-    "duration": 109
+    "duration": 109,
+    "director": [
+      {
+        "name": "Robert Rossen",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Amadeus",
-    "duration": 161
+    "duration": 161,
+    "director": [
+      {
+        "name": "Milo\u0161 Forman",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "American Beauty",
-    "duration": 121
+    "duration": 121,
+    "director": [
+      {
+        "name": "Sam Mendes",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "An American in Paris",
-    "duration": 108
+    "duration": 108,
+    "director": [
+      {
+        "name": "Vincente Minnelli",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Annie Hall",
-    "duration": 93
+    "duration": 93,
+    "director": [
+      {
+        "name": "Woody Allen",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Argo",
-    "duration": 120
+    "duration": 120,
+    "director": [
+      {
+        "name": "Ben Affleck",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Around the World in 80 Days",
-    "duration": 184
+    "duration": 184,
+    "director": [
+      {
+        "name": "Michael Anderson",
+        "gender": "male"
+      },
+      {
+        "name": "John Farrow",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Ben-Hur",
-    "duration": 222
+    "duration": 222,
+    "director": [
+      {
+        "name": "William Wyler",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Birdman",
-    "duration": 119
+    "duration": 119,
+    "director": [
+      {
+        "name": "Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Braveheart",
-    "duration": 177
+    "duration": 177,
+    "director": [
+      {
+        "name": "Mel Gibson",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "CODA",
-    "duration": 111
+    "duration": 111,
+    "director": [
+      {
+        "name": "Si\u00e2n H\u00e9der",
+        "gender": "female"
+      }
+    ]
   },
   {
     "name": "Casablanca",
-    "duration": 102
+    "duration": 102,
+    "director": [
+      {
+        "name": "Michael Curtiz",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Cavalcade",
-    "duration": 110
+    "duration": 110,
+    "director": [
+      {
+        "name": "Frank Lloyd",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Chariots of Fire",
-    "duration": 118
+    "duration": 118,
+    "director": [
+      {
+        "name": "Hugh Hudson",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Chicago",
-    "duration": 113
+    "duration": 113,
+    "director": [
+      {
+        "name": "Rob Marshall",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Cimarron",
-    "duration": 131
+    "duration": 131,
+    "director": [
+      {
+        "name": "Wesley Ruggles",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Crash",
-    "duration": 112
-  },
-  {
-    "name": "Crash",
-    "duration": 115
+    "duration": 112,
+    "director": [
+      {
+        "name": "Paul Haggis",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Dances with Wolves",
-    "duration": 181
-  },
-  {
-    "name": "Dances with Wolves",
-    "duration": 236
+    "duration": 181,
+    "director": [
+      {
+        "name": "Kevin Costner",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Driving Miss Daisy",
-    "duration": 99
+    "duration": 99,
+    "director": [
+      {
+        "name": "Bruce Beresford",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Everything Everywhere All at Once",
-    "duration": 139
+    "duration": 139,
+    "director": [
+      {
+        "name": "Dan Kwan",
+        "gender": "male"
+      },
+      {
+        "name": "Daniel Scheinert",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Forrest Gump",
-    "duration": 136
+    "duration": 136,
+    "director": [
+      {
+        "name": "Robert Zemeckis",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "From Here to Eternity",
-    "duration": 118
+    "duration": 118,
+    "director": [
+      {
+        "name": "Fred Zinnemann",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Gandhi",
-    "duration": 181
+    "duration": 181,
+    "director": [
+      {
+        "name": "Richard Attenborough",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Gentleman's Agreement",
-    "duration": 118
+    "duration": 118,
+    "director": [
+      {
+        "name": "Elia Kazan",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Gigi",
-    "duration": 119
+    "duration": 119,
+    "director": [
+      {
+        "name": "Vincente Minnelli",
+        "gender": "male"
+      },
+      {
+        "name": "Charles Walters",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Gladiator",
-    "duration": 155
+    "duration": 155,
+    "director": [
+      {
+        "name": "Ridley Scott",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Going My Way",
-    "duration": 130
+    "duration": 130,
+    "director": [
+      {
+        "name": "Leo McCarey",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Gone with the Wind",
-    "duration": 238
+    "duration": 238,
+    "director": [
+      {
+        "name": "George Cukor",
+        "gender": "male"
+      },
+      {
+        "name": "Victor Fleming",
+        "gender": "male"
+      },
+      {
+        "name": "Sam Wood",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Grand Hotel",
-    "duration": 113
+    "duration": 113,
+    "director": [
+      {
+        "name": "Edmund Goulding",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Green Book",
-    "duration": 130
+    "duration": 130,
+    "director": [
+      {
+        "name": "Peter Farrelly",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Hamlet",
-    "duration": 150
+    "duration": 150,
+    "director": [
+      {
+        "name": "Laurence Olivier",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "How Green Was My Valley",
-    "duration": 118
+    "duration": 118,
+    "director": [
+      {
+        "name": "John Ford",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "In the Heat of the Night",
-    "duration": 109
+    "duration": 109,
+    "director": [
+      {
+        "name": "Norman Jewison",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "It Happened One Night",
-    "duration": 105
+    "duration": 105,
+    "director": [
+      {
+        "name": "Frank Capra",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Kramer vs. Kramer",
-    "duration": 100
+    "duration": 100,
+    "director": [
+      {
+        "name": "Robert Benton",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Lawrence of Arabia",
-    "duration": 216
+    "duration": 216,
+    "director": [
+      {
+        "name": "David Lean",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Marty",
-    "duration": 91
+    "duration": 91,
+    "director": [
+      {
+        "name": "Delbert Mann",
+        "gender": "male"
+      },
+      {
+        "name": "Paul Helmick",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Midnight Cowboy",
-    "duration": 108
+    "duration": 108,
+    "director": [
+      {
+        "name": "John Schlesinger",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Million Dollar Baby",
-    "duration": 132
+    "duration": 132,
+    "director": [
+      {
+        "name": "Clint Eastwood",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Moonlight",
-    "duration": 111
+    "duration": 111,
+    "director": [
+      {
+        "name": "Barry Jenkins",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Mrs. Miniver",
-    "duration": 134
+    "duration": 134,
+    "director": [
+      {
+        "name": "William Wyler",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Mutiny on the Bounty",
-    "duration": 132
+    "duration": 132,
+    "director": [
+      {
+        "name": "Frank Lloyd",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "My Fair Lady",
-    "duration": 171
+    "duration": 171,
+    "director": [
+      {
+        "name": "George Cukor",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "No Country for Old Men",
-    "duration": 122
+    "duration": 122,
+    "director": [
+      {
+        "name": "Joel Coen",
+        "gender": "male"
+      },
+      {
+        "name": "Ethan Coen",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Nomadland",
-    "duration": 107
+    "duration": 107,
+    "director": [
+      {
+        "name": "Chlo\u00e9 Zhao",
+        "gender": "female"
+      }
+    ]
   },
   {
     "name": "Oliver!",
-    "duration": 146
+    "duration": 146,
+    "director": [
+      {
+        "name": "Carol Reed",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "On the Waterfront",
-    "duration": 108
+    "duration": 108,
+    "director": [
+      {
+        "name": "Elia Kazan",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "One Flew Over the Cuckoo's Nest",
-    "duration": 133
+    "duration": 133,
+    "director": [
+      {
+        "name": "Milo\u0161 Forman",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Ordinary People",
-    "duration": 124
+    "duration": 124,
+    "director": [
+      {
+        "name": "Robert Redford",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Out of Africa",
-    "duration": 160
+    "duration": 160,
+    "director": [
+      {
+        "name": "Sydney Pollack",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Parasite",
-    "duration": 132
+    "duration": 132,
+    "director": [
+      {
+        "name": "Bong Joon-ho",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Patton",
-    "duration": 170
+    "duration": 170,
+    "director": [
+      {
+        "name": "Franklin J. Schaffner",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Platoon",
-    "duration": 115
+    "duration": 115,
+    "director": [
+      {
+        "name": "Oliver Stone",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Rain Man",
-    "duration": 128
+    "duration": 128,
+    "director": [
+      {
+        "name": "Barry Levinson",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Rebecca",
-    "duration": 126
+    "duration": 126,
+    "director": [
+      {
+        "name": "Alfred Hitchcock",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Rocky",
-    "duration": 119
+    "duration": 119,
+    "director": [
+      {
+        "name": "John G. Avildsen",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Schindler's List",
-    "duration": 195
+    "duration": 195,
+    "director": [
+      {
+        "name": "Steven Spielberg",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Shakespeare in Love",
-    "duration": 123
+    "duration": 123,
+    "director": [
+      {
+        "name": "John Madden",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Slumdog Millionaire",
-    "duration": 120
+    "duration": 120,
+    "director": [
+      {
+        "name": "Danny Boyle",
+        "gender": "male"
+      },
+      {
+        "name": "Loveleen Tandan",
+        "gender": "female"
+      }
+    ]
   },
   {
     "name": "Spotlight",
-    "duration": 127
+    "duration": 127,
+    "director": [
+      {
+        "name": "Tom McCarthy",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Terms of Endearment",
-    "duration": 132
+    "duration": 132,
+    "director": [
+      {
+        "name": "James L. Brooks",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Apartment",
-    "duration": 125
+    "duration": 125,
+    "director": [
+      {
+        "name": "Billy Wilder",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Artist",
-    "duration": 100
+    "duration": 100,
+    "director": [
+      {
+        "name": "Michel Hazanavicius",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Best Years of Our Lives",
-    "duration": 172
+    "duration": 172,
+    "director": [
+      {
+        "name": "William Wyler",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Bridge on the River Kwai",
-    "duration": 156
+    "duration": 156,
+    "director": [
+      {
+        "name": "David Lean",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Broadway Melody",
-    "duration": 110
+    "duration": 110,
+    "director": [
+      {
+        "name": "Harry Beaumont",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Deer Hunter",
-    "duration": 182
+    "duration": 182,
+    "director": [
+      {
+        "name": "Michael Cimino",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Departed",
-    "duration": 152
+    "duration": 152,
+    "director": [
+      {
+        "name": "Martin Scorsese",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The English Patient",
-    "duration": 162
+    "duration": 162,
+    "director": [
+      {
+        "name": "Anthony Minghella",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The French Connection",
-    "duration": 104
+    "duration": 104,
+    "director": [
+      {
+        "name": "William Friedkin",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Godfather",
-    "duration": 175
+    "duration": 175,
+    "director": [
+      {
+        "name": "Francis Ford Coppola",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Godfather Part II",
-    "duration": 202
+    "duration": 202,
+    "director": [
+      {
+        "name": "Francis Ford Coppola",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Great Ziegfeld",
-    "duration": 176
+    "duration": 176,
+    "director": [
+      {
+        "name": "Robert Z. Leonard",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Greatest Show on Earth",
-    "duration": 152
+    "duration": 152,
+    "director": [
+      {
+        "name": "Cecil B. DeMille",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Hurt Locker",
-    "duration": 131
+    "duration": 131,
+    "director": [
+      {
+        "name": "Kathryn Bigelow",
+        "gender": "female"
+      }
+    ]
   },
   {
     "name": "The King's Speech",
-    "duration": 118
+    "duration": 118,
+    "director": [
+      {
+        "name": "Tom Hooper",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Last Emperor",
-    "duration": 165
+    "duration": 165,
+    "director": [
+      {
+        "name": "Bernardo Bertolucci",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Life of Emile Zola",
-    "duration": 116
+    "duration": 116,
+    "director": [
+      {
+        "name": "William Dieterle",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Lord of the Rings: The Return of the King",
-    "duration": 201
+    "duration": 201,
+    "director": [
+      {
+        "name": "Peter Jackson",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Lost Weekend",
-    "duration": 101
+    "duration": 101,
+    "director": [
+      {
+        "name": "Billy Wilder",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Shape of Water",
-    "duration": 123
+    "duration": 123,
+    "director": [
+      {
+        "name": "Guillermo del Toro",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Silence of the Lambs",
-    "duration": 118
+    "duration": 118,
+    "director": [
+      {
+        "name": "Jonathan Demme",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Sound of Music",
-    "duration": 174
+    "duration": 174,
+    "director": [
+      {
+        "name": "Robert Wise",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "The Sting",
-    "duration": 129
+    "duration": 129,
+    "director": [
+      {
+        "name": "George Roy Hill",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Titanic",
-    "duration": 194
+    "duration": 194,
+    "director": [
+      {
+        "name": "James Cameron",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Tom Jones",
-    "duration": 128
+    "duration": 128,
+    "director": [
+      {
+        "name": "Tony Richardson",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Unforgiven",
-    "duration": 131
+    "duration": 131,
+    "director": [
+      {
+        "name": "Clint Eastwood",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "West Side Story",
-    "duration": 150
+    "duration": 150,
+    "director": [
+      {
+        "name": "Robert Wise",
+        "gender": "male"
+      },
+      {
+        "name": "Jerome Robbins",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "Wings",
-    "duration": 141
+    "duration": 141,
+    "director": [
+      {
+        "name": "William Augustus Wellman",
+        "gender": "male"
+      },
+      {
+        "name": "Harry d\u2019Abbadie d\u2019Arrast",
+        "gender": "male"
+      }
+    ]
   },
   {
     "name": "You Can't Take It With You",
-    "duration": 126
+    "duration": 126,
+    "director": [
+      {
+        "name": "Frank Capra",
+        "gender": "male"
+      }
+    ]
   }
 ]
