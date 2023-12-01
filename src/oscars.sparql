@@ -1,17 +1,24 @@
 #BestPictureWinners
-SELECT ?filmLabel ?directorLabel ?genderLabel ?duration ?versionLabel ?film
-WHERE 
+select ?filmLabel (group_concat(?directorLabel;separator=",") as ?directors) (group_concat(?genderLabel;separator=",") as ?genders) (SAMPLE(?durationRaw) as ?duration) (COUNT(distinct ?durationRaw) as ?n_durations) ?film
+where 
 {
   ?film wdt:P31 wd:Q11424. #is a film
   ?film wdt:P166 wd:Q102427 . # won best picture
   
-  OPTIONAL {?film wdt:P57 ?director.}
-  OPTIONAL {?director wdt:P21 ?gender.}
-  OPTIONAL {?film p:P2047 ?durationStatement.} # this gets us into the "duration box" of the Wikidate page for the film
-  OPTIONAL {?durationStatement ps:P2047 ?duration.}
+  optional {?film wdt:P57 ?director.}
+  optional {?director wdt:P21 ?gender.}
+  optional {?film p:P2047 ?durationStatement.} # this gets us into the "duration box" of the Wikidate page for the film
+  optional {?durationStatement ps:P2047 ?durationRaw.}
             ?durationStatement a wikibase:BestRank . # this gets information out of the "duration box"
-  OPTIONAL {?durationStatement pq:P518 ?version.} # this gets information out of the "duration box"
+  optional {?durationStatement pq:P518 ?version.} # this gets information out of the "duration box"
+  filter(!bound(?version) || ?version in (wd:Q26225765))
   
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+  service wikibase:label {
+    bd:serviceParam wikibase:language "en".
+    ?film rdfs:label ?filmLabel.
+    ?director rdfs:label ?directorLabel.
+    ?gender rdfs:label ?genderLabel.
+  }
 }
-ORDER BY (?filmLabel)
+group by ?film ?filmLabel
+order by (?filmLabel)
