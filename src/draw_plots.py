@@ -57,7 +57,8 @@ def plot_gender(df):
     
     ax.pie([gender_ratio, 1-gender_ratio],
            labels=["female","male"],
-           colors=["xkcd:dusty teal","xkcd:beige"])
+           colors=["xkcd:dusty teal","xkcd:beige"],
+           autopct="%1.1f%%",)
 
     return fig, ax
 
