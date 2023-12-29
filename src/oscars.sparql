@@ -1,5 +1,5 @@
 #BestPictureWinners
-SELECT ?filmLabel ?directorLabel ?genderLabel ?duration ?versionLabel ?film
+SELECT ?filmLabel (group_concat(?directorLabel;separator=",") as ?directors) (group_concat(?genderLabel;separator=",") as ?genders) (group_concat(DISTINCT ?duration;separator=",") as ?durations) (group_concat(?director;separator=",") as ?directorIDs) ?film
 WHERE 
 {
   ?film wdt:P31 wd:Q11424. #is a film
@@ -12,6 +12,12 @@ WHERE
             ?durationStatement a wikibase:BestRank . # this gets information out of the "duration box"
   OPTIONAL {?durationStatement pq:P518 ?version.} # this gets information out of the "duration box"
   
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-}
+  SERVICE wikibase:label { 
+    bd:serviceParam wikibase:language "en".
+    ?film rdfs:label ?filmLabel.
+    ?director rdfs:label ?directorLabel.
+    ?gender rdfs:label ?genderLabel.
+    ?version rdfs:label ?versionLabel.
+  }
+} group by ?film ?filmLabel
 ORDER BY (?filmLabel)

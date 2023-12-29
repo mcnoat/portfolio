@@ -6,7 +6,6 @@ Created on Wed Nov  8 17:38:57 2023
 """
 
 # Python package index
-import jmespath
 import requests
 
 # custom scripts
