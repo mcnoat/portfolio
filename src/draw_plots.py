@@ -13,6 +13,7 @@ import numpy as np
 import seaborn as sns
 
 # custom scripts
+import src.pipes as pps
 from src.utils import ROOT_PATH
 
 
@@ -35,9 +36,20 @@ def plot_duration(df, association_chain: bool = False):
 def plot_gender(df):
     fig, ax = plt.subplots()
 
+    df.pipe(pps.assign_gender_ratio)
+    gender_ratio = np.mean(df.gender_ratio)
+    
+    ax.pie([gender_ratio, 1-gender_ratio],
+           labels=["female","male"],
+           colors=["xkcd:dusty teal","xkcd:beige"],
+           autopct="%1.1f%%",)
+
+    return fig, ax
+
 
 if __name__ == "__main__":
     df = pd.read_csv(ROOT_PATH / "results" / "oscars.csv")
     fig, ax = plot_duration(df)
     fig_dir = ROOT_PATH / "docs" / "assets"
     fig.savefig(fig_dir / "duration.png", bbox_inches="tight", dpi=200)
+

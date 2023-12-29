@@ -12,3 +12,9 @@ Most of the films are between 90 and 120 minutes long -- unsurprising givent hat
 The longest movie ever to be awared Best Picture is "Gone with the Wind" which clocks in just under four hours with its 238 minutes run time.
 The shortest movie is the nowadays almost forgotten "Marty" (1994, directed by Delbert Mann).
 
+## directors' gender ratio
+<figure markdown>
+  ![gender ratio of the directors as a pie chart](assets/genders.png){ width="300" }
+  <figcaption>pie chart of the directors' gender ratio</figcaption>
+</figure>
+
