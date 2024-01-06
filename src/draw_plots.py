@@ -7,30 +7,24 @@ Created on Thu Oct 20 23:04:45 2022
 """
 
 # Python package index
-import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np
-import seaborn as sns
+import plotly.express as px
 
 # custom scripts
-import src.pipes as pps
-from src.utils import ROOT_PATH
+#import src.pipes as pps
+#from src.utils import ROOT_PATH
 
 
 def plot_duration(df, association_chain: bool = False):
-    fig, ax = plt.subplots()
+    fig = px.box(df, y="duration", points="all")
     
-    sns.set_theme()
-    ax = sns.swarmplot(data=df.duration, orient="h")
-    ax.set_xlabel("duration [min]")
-
     if association_chain:
         current_movie = df.tail(1)
         current_hist, _ = np.histogram(current_movie.duration, bin_range)
         current_i = np.where(current_hist == 1)[0][0]
         autotexts[current_i].set_color("white")
 
-    return fig, ax
+    return fig
 
 
 def plot_gender(df):
@@ -49,7 +43,7 @@ def plot_gender(df):
 
 if __name__ == "__main__":
     df = pd.read_csv(ROOT_PATH / "results" / "oscars.csv")
-    fig, ax = plot_duration(df)
+    fig = plot_duration(df)
     fig_dir = ROOT_PATH / "docs" / "assets"
-    fig.savefig(fig_dir / "duration.png", bbox_inches="tight", dpi=200)
+    fig.write_image(fig_dir / "duration.png")
 
