@@ -11,12 +11,14 @@ import pandas as pd
 import plotly.express as px
 
 # custom scripts
-#import src.pipes as pps
-#from src.utils import ROOT_PATH
+import src.pipes as pps
+from src.utils import ROOT_PATH
 
 
 def plot_duration(df, association_chain: bool = False):
     fig = px.box(df, y="duration", points="all")
+    fig.update_yaxes(title_text="duration [min]")
+    fig.update_layout(width=400)
     
     if association_chain:
         current_movie = df.tail(1)
@@ -45,5 +47,6 @@ if __name__ == "__main__":
     df = pd.read_csv(ROOT_PATH / "results" / "oscars.csv")
     fig = plot_duration(df)
     fig_dir = ROOT_PATH / "docs" / "assets"
+    fig.update_layout(margin=dict(l=10, r=10, t=10, b=10))
     fig.write_image(fig_dir / "duration.png")
 
