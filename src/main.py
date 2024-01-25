@@ -3,6 +3,12 @@
 """
 Created on Thu Oct 20 20:43:48 2022
 
+TODO:
+- iterate over queries with the awards Wikidata IDs in awards.json
+- save a raw (i.e. "dirty") CSV file for each query
+- clean data (I dropped the goal of the query returning one row per film, now the 
+  cleaning has to be done on the client side)
+
 @author: moritz
 """
 
