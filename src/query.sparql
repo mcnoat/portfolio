@@ -1,18 +1,21 @@
-#BestPictureWinners
-select ?filmLabel (group_concat(?directorLabel;separator=",") as ?directors) (group_concat(?genderLabel;separator=",") as ?genders) (SAMPLE(?durationRaw) as ?duration) (COUNT(distinct ?durationRaw) as ?n_durations) ?film
+#AwardWinners
+select ?filmLabel (YEAR(?date) as ?year) ?directorLabel ?genderLabel ?duration ?film
 where 
 {
   ?film wdt:P31 wd:Q11424. #is a film
-  ?film wdt:P166 wd:Q102427 . # won best picture
-  
+
+  ?film p:P166 ?awardStatement . # won a given award
+  ?awardStatement ps:P166 wd:$award .
+  ?awardStatement pq:P585 ?date .
+
   optional {?film wdt:P57 ?director.}
   optional {?director wdt:P21 ?gender.}
   optional {?film p:P2047 ?durationStatement.} # this gets us into the "duration box" of the Wikidate page for the film
-  optional {?durationStatement ps:P2047 ?durationRaw.}
+  optional {?durationStatement ps:P2047 ?duration.}
             ?durationStatement a wikibase:BestRank . # this gets information out of the "duration box"
   optional {?durationStatement pq:P518 ?version.} # this gets information out of the "duration box"
   filter(!bound(?version) || ?version in (wd:Q26225765))
-  
+
   service wikibase:label {
     bd:serviceParam wikibase:language "en".
     ?film rdfs:label ?filmLabel.
@@ -20,5 +23,4 @@ where
     ?gender rdfs:label ?genderLabel.
   }
 }
-group by ?film ?filmLabel
-order by (?filmLabel)
+order by (?year)

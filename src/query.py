@@ -5,12 +5,19 @@ Created on Wed Nov  8 17:38:57 2023
 @author: Moritz Schubert
 """
 
+# standard library
+from itertools import groupby, count
+import string
+import time
+from typing import Literal
+
 # Python package index
 import pandas as pd
 import requests
 
 # custom scripts
 from src.utils import ROOT_PATH
+from src import utils
 
 
 def query_wikidata(query: str):
@@ -20,15 +27,21 @@ def query_wikidata(query: str):
     return data
 
 
+def specify_award(query: str,
+                  award: Literal["bear", "lion", "oscar", "palm"]) -> str:
+    template = string.Template(query)
+    award_id_dict = utils.load_json("awards.json")
+    award_id = award_id_dict[award]
+    query = template.substitute(award=award_id)
+    
+    return query
+
+
 def wikidata_to_json(data: dict):
     json = []
     values = [{key: value["value"] for key, value in entry.items()} for entry in data]
     old_wd_id = None
     for v in values["results"]["bindings"]:
-        if "versionLabel" in v:
-            cut = v["versionLabel"]
-            if cut == "director's cut":
-                continue
 
         wd_id: str = v["film"].split("/")[-1]
         name: str = v["filmLabel"]
@@ -48,6 +61,34 @@ def wikidata_to_json(data: dict):
     return json
 
 
+def consecutive_parts(number_list: list[int]) -> list:
+    """Split a list into parts where each part contains consecutive numbers.
+    
+    Parameters:
+    - lst (list): The input list.
+    
+    Returns:
+    list of lists: A list of sublists where each sublist contains consecutive numbers.
+    """
+    result = [list(group) for key, group in groupby(number_list, lambda number, c=count(): number - next(c))]
+    
+    return result
+
+
+def join_duplicates(df: pd.DataFrame):
+    """find the duplicate film IDs and join them into single rows"""
+    
+    result_df = df.groupby("film").agg(lambda x: "/".join(set(x))).reset_index()
+    
+    for index in result_df.index:
+        if "/" in result_df.loc[index, "duration"]:
+            film = result_df.loc[index, "filmLabel"]
+            raise ValueError(f"More than one duration for {film}. Go to WikiData and assign a preferred rang.")
+    
+    return result_df
+        
+
+
 def wikidata_to_df(data: dict) -> pd.DataFrame:
     values = [
         {key: value["value"] for key, value in entry.items()}
@@ -65,11 +106,20 @@ def wikidata_to_df(data: dict) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    with open("oscars.sparql", "r") as file:
-        query = file.read()
-    data = query_wikidata(query)
+    awards = list(utils.load_json("awards.json"))
+    
+    for award in awards:
+        print(f"Processing {award}...")
+        with open("query.sparql", "r") as file:
+            query_unspecified = file.read()
+        query_specified = specify_award(query_unspecified, award)
+        data = query_wikidata(query_specified)
+        time.sleep(1)
 
-    df = wikidata_to_df(data)
-    results_dir = ROOT_PATH / "results"
-    assert results_dir.exists()
-    df.to_csv(results_dir / "oscars.csv", index=False)
+        df_raw = wikidata_to_df(data)
+        df_cleaned = join_duplicates(df_raw)
+        df_sorted = df_cleaned.sort_values(by="year", ascending=True)
+    
+        results_dir = ROOT_PATH / "results"
+        assert results_dir.exists()
+        df_sorted.to_csv(results_dir / f"{award}.csv", index=False)

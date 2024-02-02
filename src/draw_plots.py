@@ -16,7 +16,16 @@ from src.utils import ROOT_PATH
 
 
 def plot_duration(df, association_chain: bool = False):
-    fig = px.box(df, y="duration", points="all")
+    
+    most_recent_year = list(df.year)[-1]
+    color_lst = ["red" if val == most_recent_year else "blue" for val in df["year"]]
+    fig = px.box(df, y="duration",
+                 color=color_lst,
+                 points="all",
+                 boxmode="overlay")
+    
+    fig.update_traces(selector=0, name="rest")
+    fig.update_traces(selector=1, name=most_recent_year)
     fig.update_yaxes(title_text="duration [min]")
     fig.update_layout(width=300)
 
@@ -46,7 +55,7 @@ def plot_gender(df):
 
 
 if __name__ == "__main__":
-    df = pd.read_csv(ROOT_PATH / "results" / "oscars.csv")
+    df = pd.read_csv(ROOT_PATH / "results" / "oscar.csv")
     fig = plot_duration(df)
     fig_dir = ROOT_PATH / "docs" / "assets"
     fig.update_layout(margin=dict(l=10, r=10, t=10, b=10))
