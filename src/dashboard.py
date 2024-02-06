@@ -14,8 +14,8 @@ from dash import Dash, dcc, html, Input, Output
 import pandas as pd
 
 # custom scripts
-import src.draw_plots as draw
-from src import utils
+import draw_plots as draw
+import utils
 
 
 def load_award_df(award: Literal["bear", "lion", "oscar", "palm"]):
