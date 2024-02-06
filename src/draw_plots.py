@@ -11,8 +11,8 @@ import pandas as pd
 import plotly.express as px
 
 # custom scripts
-import src.pipes as pps
-from src.utils import ROOT_PATH
+import pipes as pps
+from utils import ROOT_PATH
 
 
 def plot_duration(df):
