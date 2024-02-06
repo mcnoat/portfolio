@@ -19,8 +19,8 @@ Q1816145,Sandra,Luchino Visconti,male,105,1965
 Q784812,The Battle of Algiers,Gillo Pontecorvo,male,117,1965
 Q470375,Belle de Jour,Luis Buñuel,male,101,1967
 Q573953,Artists Under the Big Top: Perplexed,Alexander Kluge,male,103,1968
-Q627942,Gloria,John Cassavetes,male,117,1980
 Q756329,Atlantic City,Louis Malle,male,104,1980
+Q627942,Gloria,John Cassavetes,male,117,1980
 Q703966,Marianne and Juliane,Margarethe von Trotta,female,106,1981
 Q692367,The State of Things,Wim Wenders,male,124,1982
 Q2296139,First Name: Carmen,Jean-Luc Godard,male,85,1983
@@ -32,8 +32,8 @@ Q2182637,The Legend of the Holy Drinker,Ermanno Olmi,male,127,1988
 Q133461,A City of Sadness,Hou Hsiao-Hsien,male,158,1989
 Q1579166,Rosencrantz & Guildenstern Are Dead,Tom Stoppard,male,118,1990
 Q1169942,Close to Eden,Nikita Mikhalkov,male,120,1991
-Q932814,Three Colours: Blue,Krzysztof Kieślowski,male,100,1993
 Q605226,Short Cuts,Robert Altman,male,187,1993
+Q932814,Three Colours: Blue,Krzysztof Kieślowski,male,100,1993
 Q711684,Vive L'Amour,Tsai Ming-liang,male,118,1994
 Q911013,Before the Rain,Milcho Manchevski,male,113,1994
 Q2253032,Cyclo,Tran Anh Hung,male,123,1995
@@ -62,3 +62,4 @@ Q27959455,Roma,Alfonso Cuarón,male,135,2018
 Q61740820,Nomadland,Chloé Zhao,female,107,2020
 Q107675028,Happening,Audrey Diwan,female,100,2021
 Q113445202,All the Beauty and the Bloodshed,Laura Poitras,female,122,2022
+Q108760382,Poor Things,Yorgos Lanthimos,male,141,2023

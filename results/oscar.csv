@@ -1,7 +1,7 @@
 film,filmLabel,directorLabel,genderLabel,duration,year
-Q272036,Wings,Harry d’Abbadie d’Arrast/William Augustus Wellman,male,141,1929
-Q272599,All Quiet on the Western Front,Lewis Milestone,male,136,1930
+Q272036,Wings,William Augustus Wellman/Harry d’Abbadie d’Arrast,male,141,1929
 Q463620,The Broadway Melody,Harry Beaumont,male,110,1930
+Q272599,All Quiet on the Western Front,Lewis Milestone,male,136,1930
 Q251997,Cimarron,Wesley Ruggles,male,131,1931
 Q246656,Grand Hotel,Edmund Goulding,male,113,1932
 Q753107,Cavalcade,Frank Lloyd,male,110,1934
@@ -10,7 +10,7 @@ Q329709,Mutiny on the Bounty,Frank Lloyd,male,132,1936
 Q470218,The Great Ziegfeld,Robert Z. Leonard,male,176,1937
 Q738552,The Life of Emile Zola,William Dieterle,male,116,1938
 Q637835,You Can't Take It With You,Frank Capra,male,126,1939
-Q2875,Gone with the Wind,Sam Wood/Victor Fleming/George Cukor,male,238,1940
+Q2875,Gone with the Wind,George Cukor/Victor Fleming/Sam Wood,male,238,1940
 Q204212,Rebecca,Alfred Hitchcock,male,126,1941
 Q244448,How Green Was My Valley,John Ford,male,118,1942
 Q478371,Mrs. Miniver,William Wyler,male,134,1943
@@ -29,7 +29,7 @@ Q211372,On the Waterfront,Elia Kazan,male,108,1955
 Q237116,Marty,Paul Helmick/Delbert Mann,male,91,1956
 Q696057,Around the World in 80 Days,Michael Anderson/John Farrow,male,184,1957
 Q188718,The Bridge on the River Kwai,David Lean,male,156,1958
-Q577757,Gigi,Charles Walters/Vincente Minnelli,male,119,1959
+Q577757,Gigi,Vincente Minnelli/Charles Walters,male,119,1959
 Q180098,Ben-Hur,William Wyler,male,222,1960
 Q270510,The Apartment,Billy Wilder,male,125,1961
 Q273704,West Side Story,Jerome Robbins/Robert Wise,male,150,1962

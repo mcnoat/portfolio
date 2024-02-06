@@ -5,8 +5,8 @@ Q1621402,Friendly Persuasion,William Wyler,male,137,1957
 Q714524,The Cranes Are Flying,Mikhail Kalatozov,male,97,1958
 Q538266,Black Orpheus,Marcel Camus,male,107,1959
 Q18407,La Dolce Vita,Federico Fellini,male,174,1960
-Q2661411,The Long Absence,Henri Colpi,male,85,1961
 Q852841,Viridiana,Luis Buñuel,male,90,1961
+Q2661411,The Long Absence,Henri Colpi,male,85,1961
 Q1482269,O Pagador de Promessas,Anselmo Duarte,male,92,1962
 Q596623,The Leopard,Luchino Visconti,male,183,1963
 Q163868,The Umbrellas of Cherbourg,Jacques Demy,male,91,1964
@@ -17,22 +17,22 @@ Q658204,Blowup,Michelangelo Antonioni,male,111,1967
 Q1346745,If....,Lindsay Anderson,male,111,1969
 Q494085,MASH,Robert Altman,male,116,1970
 Q664020,The Go-Between,Joseph Losey,male,118,1971
-Q1197936,The Working Class Goes to Heaven,Elio Petri,male,120,1972
 Q2755251,The Mattei Affair,Francesco Rosi,male,110,1972
+Q1197936,The Working Class Goes to Heaven,Elio Petri,male,120,1972
 Q1344329,Scarecrow,Jerry Schatzberg,male,112,1973
 Q1118527,The Hireling,Alan Bridges,male,95,1973
 Q1009788,The Conversation,Francis Ford Coppola,male,109,1974
 Q2713929,Chronicle of the Years of Fire,Mohammed Lakhdar-Hamina,male,177,1975
 Q47221,Taxi Driver,Martin Scorsese,male,114,1976
-Q527598,Padre Padrone,Vittorio Taviani/Paolo Taviani,male,113,1977
+Q527598,Padre Padrone,Paolo Taviani/Vittorio Taviani,male,113,1977
 Q1194413,The Tree of Wooden Clogs,Ermanno Olmi,male,186,1978
 Q313764,The Tin Drum,Volker Schlöndorff,male,142,1979
 Q182692,Apocalypse Now,Francis Ford Coppola,male,153,1979
 Q854990,Kagemusha,Akira Kurosawa,male,179,1980
 Q1353441,All That Jazz,Bob Fosse,male,123,1980
 Q959682,Man of Iron,Andrzej Wajda,male,147,1981
-Q683020,Yol,Yılmaz Güney/Şerif Gören,male,114,1982
 Q400985,Missing,Costa-Gavras,male,122,1982
+Q683020,Yol,Yılmaz Güney/Şerif Gören,male,114,1982
 Q1140513,The Ballad of Narayama,Shohei Imamura,male,130,1983
 Q160946,"Paris, Texas",Wim Wenders,male,147,1984
 Q433000,When Father Was Away on Business,Emir Kusturica,male,136,1985
@@ -47,16 +47,16 @@ Q117315,The Piano,Jane Campion,female,121,1993
 Q104123,Pulp Fiction,Quentin Tarantino,male,154,1994
 Q156516,Underground,Emir Kusturica,male,163,1995
 Q391172,Secrets & Lies,Mike Leigh,male,142,1996
-Q1156892,The Eel,Shohei Imamura,male,110,1997
 Q794178,Taste of Cherry,Abbas Kiarostami,male,95,1997
+Q1156892,The Eel,Shohei Imamura,male,110,1997
 Q697770,Eternity and a Day,Thodoros Angelopoulos,male,137,1998
-Q1907380,Rosetta,Luc Dardenne/Jean-Pierre Dardenne,male,93,1999
+Q1907380,Rosetta,Jean-Pierre Dardenne/Luc Dardenne,male,93,1999
 Q110365,Dancer in the Dark,Lars von Trier,male,140,2000
 Q530812,The Son's Room,Nanni Moretti,male,99,2001
-Q150804,The Pianist,Roman Polanski,male,148.7,2002
+Q150804,The Pianist,Roman Polanski,male,143,2002
 Q1163943,Elephant,Gus Van Sant,male,81,2003
 Q221852,Fahrenheit 9/11,Michael Moore,male,122,2004
-Q466024,The Child,Luc Dardenne/Jean-Pierre Dardenne,male,95,2005
+Q466024,The Child,Jean-Pierre Dardenne/Luc Dardenne,male,95,2005
 Q827106,The Wind That Shakes the Barley,Ken Loach,male,127,2006
 Q238245,"4 Months, 3 Weeks and 2 Days",Cristian Mungiu,male,113,2007
 Q1139259,The Class,Laurent Cantet,male,128,2008

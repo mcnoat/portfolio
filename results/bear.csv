@@ -1,7 +1,7 @@
 film,filmLabel,directorLabel,genderLabel,duration,year
+Q1403096,Without Leaving an Address,Jean-Paul Le Chanois,male,90,1951
 Q2283907,Justice Is Done,André Cayatte,male,105,1951
 Q520462,Four in a Jeep,Leopold Lindtberg,male,100,1951
-Q1403096,Without Leaving an Address,Jean-Paul Le Chanois,male,90,1951
 Q1536123,One Summer of Happiness,Arne Mattsson,male,95,1952
 Q465773,The Wages of Fear,Henri-Georges Clouzot,male,148,1953
 Q1613944,Hobson's Choice,David Lean,male,107,1954
@@ -12,8 +12,8 @@ Q239756,Wild Strawberries,Ingmar Bergman,male,92,1958
 Q141557,The Cousins,Claude Chabrol/Philippe de Broca,male,108,1959
 Q1215047,La Notte,Michelangelo Antonioni,male,122,1961
 Q1477112,A Kind of Loving,John Schlesinger,male,107,1962
-Q1403726,"Bushido, Samurai Saga",Tadashi Imai,male,122,1963
 Q474072,Il diavolo,Gian Luigi Polidoro,male,98,1963
+Q1403726,"Bushido, Samurai Saga",Tadashi Imai,male,122,1963
 Q1542380,Dry Summer,Metin Erksan,male,90,1964
 Q542688,Alphaville,Jean-Luc Godard,male,89,1965
 Q1637787,Cul-de-sac,Roman Polanski,male,111,1966
@@ -27,17 +27,17 @@ Q1402938,The Apprenticeship of Duddy Kravitz,Ted Kotcheff,male,120,1974
 Q1475202,Adoption,Márta Mészáros,female,89,1975
 Q1001943,"Buffalo Bill and the Indians, or Sitting Bull's History Lesson",Robert Altman,male,123,1976
 Q760053,The Ascent,Larisa Shepitko,female,110,1977
-Q3218260,Las truchas,José Luis García Sánchez,male,99,1978
 Q3015346,What Max Said,Emilio Martínez-Lázaro,male,97,1978
+Q3218260,Las truchas,José Luis García Sánchez,male,99,1978
 Q325286,David,Peter Lilienthal,male,127,1979
-Q322107,Palermo or Wolfsburg,Werner Schroeter,male,180,1980
 Q1402558,Heartland,Richard Pearce,male,96,1980
+Q322107,Palermo or Wolfsburg,Werner Schroeter,male,180,1980
 Q922099,"Deprisa, Deprisa",Carlos Saura,male,99,1981
 Q703188,Veronika Voss,Rainer Werner Fassbinder,male,100,1982
 Q2607773,Ascendancy,Edward Bennett,male,92,1983
 Q2521232,Love Streams,John Cassavetes,male,141,1984
-Q480773,The Woman and the Stranger,Rainer Simon,male,97,1985
 Q3420924,Wetherby,David Hare,male,102,1985
+Q480773,The Woman and the Stranger,Rainer Simon,male,97,1985
 Q571512,Stammheim,Reinhard Hauff,male,107,1986
 Q734048,The Theme,Gleb Panfilov,male,99,1987
 Q166588,Red Sorghum,Zhang Yimou,male,91,1988
@@ -46,8 +46,8 @@ Q2303863,Larks on a String,Jiří Menzel,male,94,1990
 Q1427849,Music Box,Costa-Gavras,male,124,1990
 Q1088798,The House of Smiles,Marco Ferreri,male,110,1991
 Q1542548,Grand Canyon,Lawrence Kasdan,male,134,1992
-Q1088947,Woman Sesame Oil Maker,Xie Fei,male,105,1993
 Q182071,The Wedding Banquet,Ang Lee,male,103,1993
+Q1088947,Woman Sesame Oil Maker,Xie Fei,male,105,1993
 Q304074,In the Name of the Father,Jim Sheridan,male,133,1994
 Q1087039,The Bait,Bertrand Tavernier,male,113,1995
 Q643263,Sense and Sensibility,Ang Lee,male,136,1996
@@ -58,15 +58,15 @@ Q588420,Magnolia,Paul Thomas Anderson,male,188,2000
 Q76827,Intimacy,Patrice Chéreau,male,117,2001
 Q1458594,In This World,Michael Winterbottom,male,86,2003
 Q325648,Head-On,Fatih Akin,male,116,2004
-Q1138876,In Good Company,Paul Weitz/Lawrence Pressman,male,106,2005
 Q2141815,U-Carmen eKhayelitsha,Mark Dornford-May,male,120,2005
+Q1138876,In Good Company,Paul Weitz/Lawrence Pressman,male,106,2005
 Q116171,Grbavica,Jasmila Žbanić,female,107,2006
 Q430987,Tuya's Marriage,Wang Quan'an,male,96,2007
 Q282781,Elite Squad,José Padilha,male,118,2008
 Q1129420,The Milk of Sorrow,Claudia Llosa,female,94,2009
 Q804582,Honey,Semih Kaplanoğlu,male,104,2010
 Q640561,A Separation,Asghar Farhadi,male,123,2011
-Q1059540,Caesar Must Die,Vittorio Taviani/Paolo Taviani,male,76,2012
+Q1059540,Caesar Must Die,Paolo Taviani/Vittorio Taviani,male,76,2012
 Q4778856,Child's Pose,Călin Peter Netzer,male,112,2013
 Q15731283,"Black Coal, Thin Ice",Diao Yinan,male,106,2014
 Q18844625,Taxi,Jafar Panahi,male,82,2015

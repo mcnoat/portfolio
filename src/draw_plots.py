@@ -15,25 +15,16 @@ import src.pipes as pps
 from src.utils import ROOT_PATH
 
 
-def plot_duration(df, association_chain: bool = False):
-    
+def plot_duration(df):
+
     most_recent_year = list(df.year)[-1]
     color_lst = ["red" if val == most_recent_year else "blue" for val in df["year"]]
-    fig = px.box(df, y="duration",
-                 color=color_lst,
-                 points="all",
-                 boxmode="overlay")
-    
+    fig = px.box(df, y="duration", color=color_lst, points="all", boxmode="overlay")
+
     fig.update_traces(selector=0, name="rest")
     fig.update_traces(selector=1, name=most_recent_year)
     fig.update_yaxes(title_text="duration [min]")
     fig.update_layout(width=300)
-
-    if association_chain:
-        current_movie = df.tail(1)
-        current_hist, _ = np.histogram(current_movie.duration, bin_range)
-        current_i = np.where(current_hist == 1)[0][0]
-        autotexts[current_i].set_color("white")
 
     return fig
 

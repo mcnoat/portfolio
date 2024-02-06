@@ -1,6 +1,18 @@
 {
-  "oscar": "Q102427",
-  "palm": "Q179808",
-  "lion": "Q209459",
-  "bear": "Q154590"
+  "oscar": {
+    "id": "Q102427",
+    "name": "Academy Awards"
+  },
+  "palm": {
+    "id": "Q179808",
+    "name": "Cannes Film Festival"
+  },
+  "lion": {
+    "id": "Q209459",
+    "name": "Venice Film Festival"
+  },
+  "bear": {
+    "id": "Q154590",
+    "name": "Berlin Film Festival"
+  }
 }
