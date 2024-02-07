@@ -1,4 +1,4 @@
-film,filmLabel,directorLabel,genderLabel,duration,year
+id,title,director,gender,duration,year_received
 Q1403096,Without Leaving an Address,Jean-Paul Le Chanois,male,90,1951
 Q2283907,Justice Is Done,André Cayatte,male,105,1951
 Q520462,Four in a Jeep,Leopold Lindtberg,male,100,1951
@@ -9,7 +9,7 @@ Q554975,Die Ratten,Robert Siodmak,male,97,1955
 Q1308277,Invitation to the Dance,Gene Kelly,male,93,1956
 Q2345,12 Angry Men,Sidney Lumet,male,95,1957
 Q239756,Wild Strawberries,Ingmar Bergman,male,92,1958
-Q141557,The Cousins,Claude Chabrol/Philippe de Broca,male,108,1959
+Q141557,The Cousins,Philippe de Broca/Claude Chabrol,male,108,1959
 Q1215047,La Notte,Michelangelo Antonioni,male,122,1961
 Q1477112,A Kind of Loving,John Schlesinger,male,107,1962
 Q474072,Il diavolo,Gian Luigi Polidoro,male,98,1963
@@ -59,14 +59,14 @@ Q76827,Intimacy,Patrice Chéreau,male,117,2001
 Q1458594,In This World,Michael Winterbottom,male,86,2003
 Q325648,Head-On,Fatih Akin,male,116,2004
 Q2141815,U-Carmen eKhayelitsha,Mark Dornford-May,male,120,2005
-Q1138876,In Good Company,Paul Weitz/Lawrence Pressman,male,106,2005
+Q1138876,In Good Company,Lawrence Pressman/Paul Weitz,male,106,2005
 Q116171,Grbavica,Jasmila Žbanić,female,107,2006
 Q430987,Tuya's Marriage,Wang Quan'an,male,96,2007
 Q282781,Elite Squad,José Padilha,male,118,2008
 Q1129420,The Milk of Sorrow,Claudia Llosa,female,94,2009
 Q804582,Honey,Semih Kaplanoğlu,male,104,2010
 Q640561,A Separation,Asghar Farhadi,male,123,2011
-Q1059540,Caesar Must Die,Paolo Taviani/Vittorio Taviani,male,76,2012
+Q1059540,Caesar Must Die,Vittorio Taviani/Paolo Taviani,male,76,2012
 Q4778856,Child's Pose,Călin Peter Netzer,male,112,2013
 Q15731283,"Black Coal, Thin Ice",Diao Yinan,male,106,2014
 Q18844625,Taxi,Jafar Panahi,male,82,2015

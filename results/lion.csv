@@ -1,4 +1,4 @@
-film,filmLabel,directorLabel,genderLabel,duration,year
+id,title,director,gender,duration,year_received
 Q937385,Manon,Henri-Georges Clouzot,male,103,1949
 Q2283907,Justice Is Done,André Cayatte,male,105,1950
 Q135465,Rashomon,Akira Kurosawa,male,88,1951

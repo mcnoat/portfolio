@@ -1,4 +1,4 @@
-film,filmLabel,directorLabel,genderLabel,duration,year
+id,title,director,gender,duration,year_received
 Q272036,Wings,William Augustus Wellman/Harry d’Abbadie d’Arrast,male,141,1929
 Q463620,The Broadway Melody,Harry Beaumont,male,110,1930
 Q272599,All Quiet on the Western Front,Lewis Milestone,male,136,1930
@@ -10,7 +10,7 @@ Q329709,Mutiny on the Bounty,Frank Lloyd,male,132,1936
 Q470218,The Great Ziegfeld,Robert Z. Leonard,male,176,1937
 Q738552,The Life of Emile Zola,William Dieterle,male,116,1938
 Q637835,You Can't Take It With You,Frank Capra,male,126,1939
-Q2875,Gone with the Wind,George Cukor/Victor Fleming/Sam Wood,male,238,1940
+Q2875,Gone with the Wind,Victor Fleming/Sam Wood/George Cukor,male,238,1940
 Q204212,Rebecca,Alfred Hitchcock,male,126,1941
 Q244448,How Green Was My Valley,John Ford,male,118,1942
 Q478371,Mrs. Miniver,William Wyler,male,134,1943
@@ -32,7 +32,7 @@ Q188718,The Bridge on the River Kwai,David Lean,male,156,1958
 Q577757,Gigi,Vincente Minnelli/Charles Walters,male,119,1959
 Q180098,Ben-Hur,William Wyler,male,222,1960
 Q270510,The Apartment,Billy Wilder,male,125,1961
-Q273704,West Side Story,Jerome Robbins/Robert Wise,male,150,1962
+Q273704,West Side Story,Robert Wise/Jerome Robbins,male,150,1962
 Q228186,Lawrence of Arabia,David Lean,male,216,1963
 Q313315,Tom Jones,Tony Richardson,male,128,1964
 Q201215,My Fair Lady,George Cukor,male,171,1965
@@ -78,8 +78,8 @@ Q131074,The Lord of the Rings: The Return of the King,Peter Jackson,male,201,200
 Q184255,Million Dollar Baby,Clint Eastwood,male,132,2005
 Q188000,Crash,Paul Haggis,male,112,2006
 Q172975,The Departed,Martin Scorsese,male,152,2007
-Q183081,No Country for Old Men,Ethan Coen/Joel Coen,male,122,2008
-Q125076,Slumdog Millionaire,Danny Boyle/Loveleen Tandan,female/male,120,2009
+Q183081,No Country for Old Men,Joel Coen/Ethan Coen,male,122,2008
+Q125076,Slumdog Millionaire,Loveleen Tandan/Danny Boyle,female/male,120,2009
 Q183066,The Hurt Locker,Kathryn Bigelow,female,131,2010
 Q160060,The King's Speech,Tom Hooper,male,118,2011
 Q171861,The Artist,Michel Hazanavicius,male,100,2012

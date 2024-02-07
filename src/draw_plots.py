@@ -17,9 +17,13 @@ from utils import ROOT_PATH
 
 def plot_duration(df):
 
-    most_recent_year = list(df.year)[-1]
-    color_lst = ["red" if val == most_recent_year else "blue" for val in df["year"]]
-    fig = px.box(df, y="duration", color=color_lst, points="all", boxmode="overlay")
+    most_recent_year = list(df.year_received)[-1]
+    color_lst = ["red" if val == most_recent_year else "blue" for val in df["year_received"]]
+    fig = px.box(df, y="duration",
+                 color=color_lst,
+                 points="all",
+                 boxmode="overlay",
+                 hover_data=["title"])
 
     fig.update_traces(selector=0, name="rest")
     fig.update_traces(selector=1, name=most_recent_year)

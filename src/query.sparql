@@ -14,7 +14,7 @@ where
   optional {?durationStatement ps:P2047 ?duration.}
             ?durationStatement a wikibase:BestRank . # this gets information out of the "duration box"
   optional {?durationStatement pq:P518 ?version.} # this gets information out of the "duration box"
-  filter(!bound(?version) || ?version in (wd:Q26225765))
+  filter(!bound(?version) || ?version in (wd:Q26225765)) # select theatrical version
 
   service wikibase:label {
     bd:serviceParam wikibase:language "en".
