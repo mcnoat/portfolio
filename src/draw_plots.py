@@ -17,8 +17,8 @@ from utils import ROOT_PATH
 
 def plot_duration(df):
 
-    most_recent_year = list(df.year_received)[-1]
-    color_lst = ["red" if val == most_recent_year else "blue" for val in df["year_received"]]
+    most_recent_year = list(df.year_awarded)[-1]
+    color_lst = ["red" if val == most_recent_year else "blue" for val in df["year_awarded"]]
     fig = px.box(df, y="duration",
                  color=color_lst,
                  points="all",

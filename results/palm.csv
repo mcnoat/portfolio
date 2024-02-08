@@ -1,76 +1,76 @@
-id,title,director,gender,duration,year_received
-Q237116,Marty,Paul Helmick/Delbert Mann,male,91,1955
-Q289648,The Silent World,Louis Malle/Jacques Cousteau,male,85,1956
-Q1621402,Friendly Persuasion,William Wyler,male,137,1957
-Q714524,The Cranes Are Flying,Mikhail Kalatozov,male,97,1958
-Q538266,Black Orpheus,Marcel Camus,male,107,1959
-Q18407,La Dolce Vita,Federico Fellini,male,174,1960
-Q852841,Viridiana,Luis Buñuel,male,90,1961
-Q2661411,The Long Absence,Henri Colpi,male,85,1961
-Q1482269,O Pagador de Promessas,Anselmo Duarte,male,92,1962
-Q596623,The Leopard,Luchino Visconti,male,183,1963
-Q163868,The Umbrellas of Cherbourg,Jacques Demy,male,91,1964
-Q1198726,The Knack ...and How to Get It,Richard Lester,male,85,1965
-Q261403,A Man and a Woman,Claude Lelouch,male,102,1966
-Q319275,"The Birds, the Bees and the Italians",Pietro Germi,male,115,1966
-Q658204,Blowup,Michelangelo Antonioni,male,111,1967
-Q1346745,If....,Lindsay Anderson,male,111,1969
-Q494085,MASH,Robert Altman,male,116,1970
-Q664020,The Go-Between,Joseph Losey,male,118,1971
-Q2755251,The Mattei Affair,Francesco Rosi,male,110,1972
-Q1197936,The Working Class Goes to Heaven,Elio Petri,male,120,1972
-Q1344329,Scarecrow,Jerry Schatzberg,male,112,1973
-Q1118527,The Hireling,Alan Bridges,male,95,1973
-Q1009788,The Conversation,Francis Ford Coppola,male,109,1974
-Q2713929,Chronicle of the Years of Fire,Mohammed Lakhdar-Hamina,male,177,1975
-Q47221,Taxi Driver,Martin Scorsese,male,114,1976
-Q527598,Padre Padrone,Vittorio Taviani/Paolo Taviani,male,113,1977
-Q1194413,The Tree of Wooden Clogs,Ermanno Olmi,male,186,1978
-Q313764,The Tin Drum,Volker Schlöndorff,male,142,1979
-Q182692,Apocalypse Now,Francis Ford Coppola,male,153,1979
-Q854990,Kagemusha,Akira Kurosawa,male,179,1980
-Q1353441,All That Jazz,Bob Fosse,male,123,1980
-Q959682,Man of Iron,Andrzej Wajda,male,147,1981
-Q400985,Missing,Costa-Gavras,male,122,1982
-Q683020,Yol,Şerif Gören/Yılmaz Güney,male,114,1982
-Q1140513,The Ballad of Narayama,Shohei Imamura,male,130,1983
-Q160946,"Paris, Texas",Wim Wenders,male,147,1984
-Q433000,When Father Was Away on Business,Emir Kusturica,male,136,1985
-Q302490,The Mission,Roland Joffé,male,126,1986
-Q389971,Under the Sun of Satan,Maurice Pialat,male,93,1987
-Q370707,Pelle the Conqueror,Bille August,male,157,1988
-Q1367548,"Sex, Lies, an d Videotape",Steven Soderbergh,male,101,1989
-Q751382,Wild at Heart,David Lynch,male,120,1990
-Q237215,Barton Fink,Joel Coen/Ethan Coen,male,116,1991
-Q696413,Farewell My Concubine,Chen Kaige,male,171,1993
-Q117315,The Piano,Jane Campion,female,121,1993
-Q104123,Pulp Fiction,Quentin Tarantino,male,154,1994
-Q156516,Underground,Emir Kusturica,male,163,1995
-Q391172,Secrets & Lies,Mike Leigh,male,142,1996
-Q794178,Taste of Cherry,Abbas Kiarostami,male,95,1997
-Q1156892,The Eel,Shohei Imamura,male,110,1997
-Q697770,Eternity and a Day,Thodoros Angelopoulos,male,137,1998
-Q1907380,Rosetta,Luc Dardenne/Jean-Pierre Dardenne,male,93,1999
-Q110365,Dancer in the Dark,Lars von Trier,male,140,2000
-Q530812,The Son's Room,Nanni Moretti,male,99,2001
-Q150804,The Pianist,Roman Polanski,male,143,2002
-Q1163943,Elephant,Gus Van Sant,male,81,2003
-Q221852,Fahrenheit 9/11,Michael Moore,male,122,2004
-Q466024,The Child,Luc Dardenne/Jean-Pierre Dardenne,male,95,2005
-Q827106,The Wind That Shakes the Barley,Ken Loach,male,127,2006
-Q238245,"4 Months, 3 Weeks and 2 Days",Cristian Mungiu,male,113,2007
-Q1139259,The Class,Laurent Cantet,male,128,2008
-Q158023,The White Ribbon,Michael Haneke,male,144,2009
-Q553901,Uncle Boonmee Who Can Recall His Past Lives,Apichatpong Weerasethakul,male,113,2010
-Q244257,The Tree of Life,Terrence Malick,male,138,2011
-Q637820,Amour,Michael Haneke,male,127,2012
-Q11648811,Blue Is the Warmest Colour,Abdellatif Kechiche,male,179,2013
-Q15921329,Winter Sleep,Nuri Bilge Ceylan,male,196,2014
-Q19816574,Dheepan,Jacques Audiard,male,109,2015
-Q23823458,"I, Daniel Blake",Ken Loach,male,100,2016
-Q27237522,The Square,Ruben Östlund,male,152,2017
-Q48765577,Shoplifters,Hirokazu Koreeda,male,121,2018
-Q105393862,Titane,Julia Ducournau,female,108,2019
-Q61448040,Parasite,Bong Joon-ho,male,132,2019
-Q97304180,Triangle of Sadness,Ruben Östlund,male,149,2022
-Q117037697,Anatomy of a Fall,Justine Triet,female,150,2023
+id,duration,country_code,title,director,gender,country,year_awarded
+Q237116,91,USA,Marty,Paul Helmick/Delbert Mann,male,United States of America,1955
+Q289648,85,ITA/FRA,The Silent World,Louis Malle/Jacques Cousteau,male,Italy/France,1956
+Q1621402,137,USA,Friendly Persuasion,William Wyler,male,United States of America,1957
+Q714524,97,SUN,The Cranes Are Flying,Mikhail Kalatozov,male,Soviet Union,1958
+Q538266,107,BRA/ITA/FRA,Black Orpheus,Marcel Camus,male,Italy/France/Brazil,1959
+Q18407,174,ITA/FRA,La Dolce Vita,Federico Fellini,male,Italy/France,1960
+Q852841,90,ESP/MEX,Viridiana,Luis Buñuel,male,Spain/Mexico,1961
+Q2661411,85,ITA/FRA,The Long Absence,Henri Colpi,male,Italy/France,1961
+Q1482269,92,BRA,O Pagador de Promessas,Anselmo Duarte,male,Brazil,1962
+Q596623,183,ITA/FRA,The Leopard,Luchino Visconti,male,Italy/France,1963
+Q163868,91,FRA,The Umbrellas of Cherbourg,Jacques Demy,male,France,1964
+Q1198726,85,GBR,The Knack ...and How to Get It,Richard Lester,male,United Kingdom,1965
+Q261403,102,FRA,A Man and a Woman,Claude Lelouch,male,France,1966
+Q319275,115,ITA/FRA,"The Birds, the Bees and the Italians",Pietro Germi,male,Italy/France,1966
+Q658204,111,ITA/GBR,Blowup,Michelangelo Antonioni,male,Italy/United Kingdom,1967
+Q1346745,111,GBR,If....,Lindsay Anderson,male,United Kingdom,1969
+Q494085,116,USA,MASH,Robert Altman,male,United States of America,1970
+Q664020,118,GBR,The Go-Between,Joseph Losey,male,United Kingdom,1971
+Q2755251,110,ITA,The Mattei Affair,Francesco Rosi,male,Italy,1972
+Q1197936,120,ITA,The Working Class Goes to Heaven,Elio Petri,male,Italy,1972
+Q1344329,112,USA,Scarecrow,Jerry Schatzberg,male,United States of America,1973
+Q1118527,95,GBR,The Hireling,Alan Bridges,male,United Kingdom,1973
+Q1009788,109,USA,The Conversation,Francis Ford Coppola,male,United States of America,1974
+Q2713929,177,DZA,Chronicle of the Years of Fire,Mohammed Lakhdar-Hamina,male,Algeria,1975
+Q47221,114,USA,Taxi Driver,Martin Scorsese,male,United States of America,1976
+Q527598,113,ITA,Padre Padrone,Vittorio Taviani/Paolo Taviani,male,Italy,1977
+Q1194413,186,ITA,The Tree of Wooden Clogs,Ermanno Olmi,male,Italy,1978
+Q313764,142,DEU/FRA,The Tin Drum,Volker Schlöndorff,male,Germany/France,1979
+Q182692,153,USA,Apocalypse Now,Francis Ford Coppola,male,United States of America,1979
+Q854990,179,USA/JPN,Kagemusha,Akira Kurosawa,male,Japan/United States of America,1980
+Q1353441,123,USA,All That Jazz,Bob Fosse,male,United States of America,1980
+Q959682,147,POL,Man of Iron,Andrzej Wajda,male,Poland,1981
+Q400985,122,USA,Missing,Costa-Gavras,male,United States of America,1982
+Q683020,114,TUR,Yol,Şerif Gören/Yılmaz Güney,male,Turkey,1982
+Q1140513,130,JPN,The Ballad of Narayama,Shohei Imamura,male,Japan,1983
+Q160946,147,USA/DEU/FRA/GBR,"Paris, Texas",Wim Wenders,male,Germany/France/United Kingdom/United States of America,1984
+Q433000,136,YUG,When Father Was Away on Business,Emir Kusturica,male,Socialist Federal Republic of Yugoslavia,1985
+Q302490,126,FRA/GBR,The Mission,Roland Joffé,male,France/United Kingdom,1986
+Q389971,93,FRA,Under the Sun of Satan,Maurice Pialat,male,France,1987
+Q370707,157,SWE/DNK,Pelle the Conqueror,Bille August,male,Denmark/Sweden,1988
+Q1367548,101,USA,"Sex, Lies, an d Videotape",Steven Soderbergh,male,United States of America,1989
+Q751382,120,USA,Wild at Heart,David Lynch,male,United States of America,1990
+Q237215,116,USA/GBR,Barton Fink,Joel Coen/Ethan Coen,male,United Kingdom/United States of America,1991
+Q696413,171,CHN,Farewell My Concubine,Chen Kaige,male,People's Republic of China,1993
+Q117315,121,NZL/AUS/FRA/GBR,The Piano,Jane Campion,female,Australia/New Zealand/France/United Kingdom,1993
+Q104123,154,USA,Pulp Fiction,Quentin Tarantino,male,United States of America,1994
+Q156516,163,HUN/DEU/FRA/YUG/BGR/CZE,Underground,Emir Kusturica,male,Czech Republic/Federal Republic of Yugoslavia/France/Bulgaria/Germany/Hungary,1995
+Q391172,142,GBR,Secrets & Lies,Mike Leigh,male,United Kingdom,1996
+Q794178,95,IRN,Taste of Cherry,Abbas Kiarostami,male,Iran,1997
+Q1156892,110,JPN,The Eel,Shohei Imamura,male,Japan,1997
+Q697770,137,GRC/ITA/DEU/FRA,Eternity and a Day,Thodoros Angelopoulos,male,Italy/Greece/France/Germany,1998
+Q1907380,93,BEL/FRA,Rosetta,Luc Dardenne/Jean-Pierre Dardenne,male,Belgium/France,1999
+Q110365,140,SWE/NLD/FRA/GBR/DEU/NOR/USA/ITA/ARG/FIN/DNK/ISL/ESP,Dancer in the Dark,Lars von Trier,male,Denmark/Argentina/United Kingdom/Finland/France/Sweden/Iceland/Spain/Italy/Germany/Netherlands/United States of America/Norway,2000
+Q530812,99,ITA/FRA,The Son's Room,Nanni Moretti,male,Italy/France,2001
+Q150804,149,POL/DEU/FRA/GBR,The Pianist,Roman Polanski,male,Poland/Germany/France/United Kingdom,2002
+Q1163943,81,USA,Elephant,Gus Van Sant,male,United States of America,2003
+Q221852,122,USA,Fahrenheit 9/11,Michael Moore,male,United States of America,2004
+Q466024,95,BEL/FRA,The Child,Luc Dardenne/Jean-Pierre Dardenne,male,Belgium/France,2005
+Q827106,127,DEU/FRA/GBR/IRL/ITA/CHE/ESP/BEL,The Wind That Shakes the Barley,Ken Loach,male,United Kingdom/France/Spain/Italy/Germany/Republic of Ireland/Belgium/Switzerland,2006
+Q238245,113,ROU,"4 Months, 3 Weeks and 2 Days",Cristian Mungiu,male,Romania,2007
+Q1139259,128,FRA,The Class,Laurent Cantet,male,France,2008
+Q158023,144,ITA/AUT/FRA/DEU,The White Ribbon,Michael Haneke,male,Italy/Austria/France/Germany,2009
+Q553901,113,THA/FRA,Uncle Boonmee Who Can Recall His Past Lives,Apichatpong Weerasethakul,male,Thailand/France,2010
+Q244257,138,USA,The Tree of Life,Terrence Malick,male,United States of America,2011
+Q637820,127,AUT/FRA/DEU,Amour,Michael Haneke,male,Austria/France/Germany,2012
+Q11648811,179,ESP/BEL/FRA,Blue Is the Warmest Colour,Abdellatif Kechiche,male,Spain/Belgium/France,2013
+Q15921329,196,TUR/DEU/FRA,Winter Sleep,Nuri Bilge Ceylan,male,Turkey/Germany/France,2014
+Q19816574,109,FRA,Dheepan,Jacques Audiard,male,France,2015
+Q23823458,100,BEL/FRA/GBR,"I, Daniel Blake",Ken Loach,male,Belgium/France/United Kingdom,2016
+Q27237522,152,SWE/DNK/FRA/DEU,The Square,Ruben Östlund,male,Denmark/Germany/France/Sweden,2017
+Q48765577,121,JPN,Shoplifters,Hirokazu Koreeda,male,Japan,2018
+Q105393862,108,BEL/FRA,Titane,Julia Ducournau,female,Belgium/France,2019
+Q61448040,132,KOR,Parasite,Bong Joon-ho,male,South Korea,2019
+Q97304180,149,SWE/FRA/GBR/DEU/TUR/MEX/USA/DNK/GRC,Triangle of Sadness,Ruben Östlund,male,Denmark/United Kingdom/France/Sweden/Greece/Germany/United States of America/Turkey/Mexico,2022
+Q117037697,150,FRA,Anatomy of a Fall,Justine Triet,female,France,2023

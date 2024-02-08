@@ -1,79 +1,79 @@
-id,title,director,gender,duration,year_received
-Q1403096,Without Leaving an Address,Jean-Paul Le Chanois,male,90,1951
-Q2283907,Justice Is Done,André Cayatte,male,105,1951
-Q520462,Four in a Jeep,Leopold Lindtberg,male,100,1951
-Q1536123,One Summer of Happiness,Arne Mattsson,male,95,1952
-Q465773,The Wages of Fear,Henri-Georges Clouzot,male,148,1953
-Q1613944,Hobson's Choice,David Lean,male,107,1954
-Q554975,Die Ratten,Robert Siodmak,male,97,1955
-Q1308277,Invitation to the Dance,Gene Kelly,male,93,1956
-Q2345,12 Angry Men,Sidney Lumet,male,95,1957
-Q239756,Wild Strawberries,Ingmar Bergman,male,92,1958
-Q141557,The Cousins,Philippe de Broca/Claude Chabrol,male,108,1959
-Q1215047,La Notte,Michelangelo Antonioni,male,122,1961
-Q1477112,A Kind of Loving,John Schlesinger,male,107,1962
-Q474072,Il diavolo,Gian Luigi Polidoro,male,98,1963
-Q1403726,"Bushido, Samurai Saga",Tadashi Imai,male,122,1963
-Q1542380,Dry Summer,Metin Erksan,male,90,1964
-Q542688,Alphaville,Jean-Luc Godard,male,89,1965
-Q1637787,Cul-de-sac,Roman Polanski,male,111,1966
-Q1197125,The Departure,Jerzy Skolimowski,male,93,1967
-Q532112,Who Saw Him Die?,Jan Troell,male,110,1968
-Q2026238,Early Works,Želimir Žilnik,male,87,1969
-Q683014,The Garden of the Finzi-Continis,Vittorio De Sica,male,89,1971
-Q858047,The Canterbury Tales,Pier Paolo Pasolini,male,110,1972
-Q715026,Distant Thunder,Satyajit Ray,male,97,1973
-Q1402938,The Apprenticeship of Duddy Kravitz,Ted Kotcheff,male,120,1974
-Q1475202,Adoption,Márta Mészáros,female,89,1975
-Q1001943,"Buffalo Bill and the Indians, or Sitting Bull's History Lesson",Robert Altman,male,123,1976
-Q760053,The Ascent,Larisa Shepitko,female,110,1977
-Q3015346,What Max Said,Emilio Martínez-Lázaro,male,97,1978
-Q3218260,Las truchas,José Luis García Sánchez,male,99,1978
-Q325286,David,Peter Lilienthal,male,127,1979
-Q1402558,Heartland,Richard Pearce,male,96,1980
-Q322107,Palermo or Wolfsburg,Werner Schroeter,male,180,1980
-Q922099,"Deprisa, Deprisa",Carlos Saura,male,99,1981
-Q703188,Veronika Voss,Rainer Werner Fassbinder,male,100,1982
-Q2607773,Ascendancy,Edward Bennett,male,92,1983
-Q2521232,Love Streams,John Cassavetes,male,141,1984
-Q3420924,Wetherby,David Hare,male,102,1985
-Q480773,The Woman and the Stranger,Rainer Simon,male,97,1985
-Q571512,Stammheim,Reinhard Hauff,male,107,1986
-Q734048,The Theme,Gleb Panfilov,male,99,1987
-Q166588,Red Sorghum,Zhang Yimou,male,91,1988
-Q188845,Rain Man,Barry Levinson,male,128,1989
-Q2303863,Larks on a String,Jiří Menzel,male,94,1990
-Q1427849,Music Box,Costa-Gavras,male,124,1990
-Q1088798,The House of Smiles,Marco Ferreri,male,110,1991
-Q1542548,Grand Canyon,Lawrence Kasdan,male,134,1992
-Q182071,The Wedding Banquet,Ang Lee,male,103,1993
-Q1088947,Woman Sesame Oil Maker,Xie Fei,male,105,1993
-Q304074,In the Name of the Father,Jim Sheridan,male,133,1994
-Q1087039,The Bait,Bertrand Tavernier,male,113,1995
-Q643263,Sense and Sensibility,Ang Lee,male,136,1996
-Q750077,The People vs. Larry Flynt,Miloš Forman,male,130,1997
-Q1054036,Central Station,Walter Salles,male,113,1998
-Q221491,The Thin Red Line,Terrence Malick,male,166,1999
-Q588420,Magnolia,Paul Thomas Anderson,male,188,2000
-Q76827,Intimacy,Patrice Chéreau,male,117,2001
-Q1458594,In This World,Michael Winterbottom,male,86,2003
-Q325648,Head-On,Fatih Akin,male,116,2004
-Q2141815,U-Carmen eKhayelitsha,Mark Dornford-May,male,120,2005
-Q1138876,In Good Company,Lawrence Pressman/Paul Weitz,male,106,2005
-Q116171,Grbavica,Jasmila Žbanić,female,107,2006
-Q430987,Tuya's Marriage,Wang Quan'an,male,96,2007
-Q282781,Elite Squad,José Padilha,male,118,2008
-Q1129420,The Milk of Sorrow,Claudia Llosa,female,94,2009
-Q804582,Honey,Semih Kaplanoğlu,male,104,2010
-Q640561,A Separation,Asghar Farhadi,male,123,2011
-Q1059540,Caesar Must Die,Vittorio Taviani/Paolo Taviani,male,76,2012
-Q4778856,Child's Pose,Călin Peter Netzer,male,112,2013
-Q15731283,"Black Coal, Thin Ice",Diao Yinan,male,106,2014
-Q18844625,Taxi,Jafar Panahi,male,82,2015
-Q22238173,Fire at Sea,Gianfranco Rosi,male,108,2016
-Q44869778,Touch Me Not,Adina Pintilie,female,125,2018
-Q61672685,Synonyms,Nadav Lapid,male,123,2019
-Q84321441,There Is No Evil,Mohammad Rasoulof,male,151,2020
-Q105441000,Bad Luck Banging or Loony Porn,Radu Jude,male,106,2021
-Q110622667,Alcarràs,Carla Simón,female,120,2022
-Q116414358,On the Adamant,Nicolas Philibert,male,109,2023
+id,duration,country_code,title,director,gender,country,year_awarded
+Q1403096,90,FRA,Without Leaving an Address,Jean-Paul Le Chanois,male,France,1951
+Q2283907,105,FRA,Justice Is Done,André Cayatte,male,France,1951
+Q520462,100,CHE,Four in a Jeep,Leopold Lindtberg,male,Switzerland,1951
+Q1536123,95,SWE,One Summer of Happiness,Arne Mattsson,male,Sweden,1952
+Q465773,148,ITA/FRA,The Wages of Fear,Henri-Georges Clouzot,male,Italy/France,1953
+Q1613944,107,GBR,Hobson's Choice,David Lean,male,United Kingdom,1954
+Q554975,97,DEU,Die Ratten,Robert Siodmak,male,Germany,1955
+Q1308277,93,USA,Invitation to the Dance,Gene Kelly,male,United States of America,1956
+Q2345,95,USA,12 Angry Men,Sidney Lumet,male,United States of America,1957
+Q239756,92,SWE,Wild Strawberries,Ingmar Bergman,male,Sweden,1958
+Q141557,108,FRA,The Cousins,Philippe de Broca/Claude Chabrol,male,France,1959
+Q1215047,122,ITA/FRA,La Notte,Michelangelo Antonioni,male,Italy/France,1961
+Q1477112,107,GBR,A Kind of Loving,John Schlesinger,male,United Kingdom,1962
+Q1403726,122,JPN,"Bushido, Samurai Saga",Tadashi Imai,male,Japan,1963
+Q474072,98,ITA,Il diavolo,Gian Luigi Polidoro,male,Italy,1963
+Q1542380,90,TUR,Dry Summer,Metin Erksan,male,Turkey,1964
+Q542688,89,ITA/FRA,Alphaville,Jean-Luc Godard,male,Italy/France,1965
+Q1637787,111,GBR,Cul-de-sac,Roman Polanski,male,United Kingdom,1966
+Q1197125,93,BEL/FRA,The Departure,Jerzy Skolimowski,male,Belgium/France,1967
+Q532112,110,SWE,Who Saw Him Die?,Jan Troell,male,Sweden,1968
+Q683014,89,ITA,The Garden of the Finzi-Continis,Vittorio De Sica,male,Italy,1971
+Q858047,110,ITA/FRA,The Canterbury Tales,Pier Paolo Pasolini,male,Italy/France,1972
+Q715026,97,IND,Distant Thunder,Satyajit Ray,male,India,1973
+Q1402938,120,CAN,The Apprenticeship of Duddy Kravitz,Ted Kotcheff,male,Canada,1974
+Q1475202,89,HUN,Adoption,Márta Mészáros,female,Hungary,1975
+Q1001943,123,USA,"Buffalo Bill and the Indians, or Sitting Bull's History Lesson",Robert Altman,male,United States of America,1976
+Q760053,110,SUN,The Ascent,Larisa Shepitko,female,Soviet Union,1977
+Q3015346,97,ESP,What Max Said,Emilio Martínez-Lázaro,male,Spain,1978
+Q3218260,99,ESP,Las truchas,José Luis García Sánchez,male,Spain,1978
+Q325286,127,DEU,David,Peter Lilienthal,male,Germany,1979
+Q322107,180,DEU/CHE,Palermo or Wolfsburg,Werner Schroeter,male,Germany/Switzerland,1980
+Q1402558,96,USA,Heartland,Richard Pearce,male,United States of America,1980
+Q922099,99,ESP/FRA,"Deprisa, Deprisa",Carlos Saura,male,Spain/France,1981
+Q703188,100,DEU,Veronika Voss,Rainer Werner Fassbinder,male,Germany,1982
+Q2607773,92,GBR,Ascendancy,Edward Bennett,male,United Kingdom,1983
+Q2521232,141,USA,Love Streams,John Cassavetes,male,United States of America,1984
+Q3420924,102,GBR,Wetherby,David Hare,male,United Kingdom,1985
+Q480773,97,DDR/DEU,The Woman and the Stranger,Rainer Simon,male,German Democratic Republic/Germany,1985
+Q571512,107,DEU,Stammheim,Reinhard Hauff,male,Germany,1986
+Q734048,99,SUN,The Theme,Gleb Panfilov,male,Soviet Union,1987
+Q166588,91,CHN,Red Sorghum,Zhang Yimou,male,People's Republic of China,1988
+Q188845,128,USA,Rain Man,Barry Levinson,male,United States of America,1989
+Q1427849,124,USA,Music Box,Costa-Gavras,male,United States of America,1990
+Q2303863,94,CSK,Larks on a String,Jiří Menzel,male,Czechoslovakia,1990
+Q1088798,110,ITA,The House of Smiles,Marco Ferreri,male,Italy,1991
+Q1542548,134,USA,Grand Canyon,Lawrence Kasdan,male,United States of America,1992
+Q182071,103,TWN/USA,The Wedding Banquet,Ang Lee,male,Taiwan/United States of America,1993
+Q1088947,105,CHN,Woman Sesame Oil Maker,Xie Fei,male,People's Republic of China,1993
+Q304074,133,USA/GBR/IRL,In the Name of the Father,Jim Sheridan,male,Republic of Ireland/United Kingdom/United States of America,1994
+Q1087039,113,FRA,The Bait,Bertrand Tavernier,male,France,1995
+Q643263,136,USA/GBR,Sense and Sensibility,Ang Lee,male,United Kingdom/United States of America,1996
+Q750077,130,USA,The People vs. Larry Flynt,Miloš Forman,male,United States of America,1997
+Q1054036,113,BRA/FRA,Central Station,Walter Salles,male,Brazil/France,1998
+Q221491,166,USA,The Thin Red Line,Terrence Malick,male,United States of America,1999
+Q588420,188,USA,Magnolia,Paul Thomas Anderson,male,United States of America,2000
+Q76827,117,FRA/GBR,Intimacy,Patrice Chéreau,male,France/United Kingdom,2001
+Q885302,110,GBR/IRL,Bloody Sunday,Paul Greengrass,male,Republic of Ireland/United Kingdom,2002
+Q1458594,86,GBR,In This World,Michael Winterbottom,male,United Kingdom,2003
+Q325648,116,TUR/DEU,Head-On,Fatih Akin,male,Turkey/Germany,2004
+Q1138876,106,USA,In Good Company,Lawrence Pressman/Paul Weitz,male,United States of America,2005
+Q2141815,120,ZAF,U-Carmen eKhayelitsha,Mark Dornford-May,male,South Africa,2005
+Q116171,107,HRV/AUT/BIH/DEU,Grbavica,Jasmila Žbanić,female,Croatia/Austria/Bosnia and Herzegovina/Germany,2006
+Q430987,96,CHN,Tuya's Marriage,Wang Quan'an,male,People's Republic of China,2007
+Q282781,118,BRA,Elite Squad,José Padilha,male,Brazil,2008
+Q1129420,94,ESP/PER,The Milk of Sorrow,Claudia Llosa,female,Peru/Spain,2009
+Q804582,104,TUR/DEU,Honey,Semih Kaplanoğlu,male,Turkey/Germany,2010
+Q640561,123,IRN,A Separation,Asghar Farhadi,male,Iran,2011
+Q1059540,76,ITA,Caesar Must Die,Vittorio Taviani/Paolo Taviani,male,Italy,2012
+Q4778856,112,ROU,Child's Pose,Călin Peter Netzer,male,Romania,2013
+Q15731283,106,HKG/CHN,"Black Coal, Thin Ice",Diao Yinan,male,Hong Kong/People's Republic of China,2014
+Q18844625,82,IRN,Taxi,Jafar Panahi,male,Iran,2015
+Q22238173,108,ITA/FRA,Fire at Sea,Gianfranco Rosi,male,Italy/France,2016
+Q44869778,125,DEU/FRA/BGR/CZE/ROU,Touch Me Not,Adina Pintilie,female,Czech Republic/France/Bulgaria/Romania/Germany,2018
+Q61672685,123,ISR/DEU/FRA,Synonyms,Nadav Lapid,male,Germany/France/Israel,2019
+Q84321441,151,IRN/DEU/CZE,There Is No Evil,Mohammad Rasoulof,male,Czech Republic/Iran/Germany,2020
+Q105441000,106,HRV/ROU/LUX/CZE,Bad Luck Banging or Loony Porn,Radu Jude,male,Luxembourg/Romania/Czech Republic/Croatia,2021
+Q110622667,120,ESP/ITA,Alcarràs,Carla Simón,female,Spain/Italy,2022
+Q116414358,109,JPN/FRA,On the Adamant,Nicolas Philibert,male,Japan/France,2023

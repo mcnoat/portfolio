@@ -1,65 +1,65 @@
-id,title,director,gender,duration,year_received
-Q937385,Manon,Henri-Georges Clouzot,male,103,1949
-Q2283907,Justice Is Done,André Cayatte,male,105,1950
-Q135465,Rashomon,Akira Kurosawa,male,88,1951
-Q976558,Forbidden Games,René Clément,male,86,1952
-Q2716956,Romeo and Juliet,Renato Castellani,male,138,1954
-Q2352630,Ordet,Carl Theodor Dreyer,male,126,1955
-Q622382,Aparajito,Satyajit Ray,male,105,1957
-Q1060505,Rickshaw Man,Hiroshi Inagaki,male,103,1958
-Q862713,General della Rovere,Roberto Rossellini,male,133,1959
-Q150867,The Great War,Mario Monicelli,male,137,1959
-Q744482,Tomorrow Is My Turn,André Cayatte,male,123,1960
-Q225355,Last Year at Marienbad,Alain Resnais,male,94,1961
-Q1754854,Family Diary,Valerio Zurlini,male,115,1962
-Q147878,Ivan's Childhood,Andrei Tarkovsky,male,95,1962
-Q2253732,Hands Over the City,Francesco Rosi,male,105,1963
-Q399647,Red Desert,Michelangelo Antonioni,male,117,1964
-Q1816145,Sandra,Luchino Visconti,male,105,1965
-Q784812,The Battle of Algiers,Gillo Pontecorvo,male,117,1965
-Q470375,Belle de Jour,Luis Buñuel,male,101,1967
-Q573953,Artists Under the Big Top: Perplexed,Alexander Kluge,male,103,1968
-Q756329,Atlantic City,Louis Malle,male,104,1980
-Q627942,Gloria,John Cassavetes,male,117,1980
-Q703966,Marianne and Juliane,Margarethe von Trotta,female,106,1981
-Q692367,The State of Things,Wim Wenders,male,124,1982
-Q2296139,First Name: Carmen,Jean-Luc Godard,male,85,1983
-Q1094047,A Year of the Quiet Sun,Krzysztof Zanussi,male,106,1984
-Q2298257,Vagabond,Agnès Varda,female,100,1985
-Q1171334,The Green Ray,Éric Rohmer,male,98,1986
-Q187276,Au revoir les enfants,Louis Malle,male,104,1987
-Q2182637,The Legend of the Holy Drinker,Ermanno Olmi,male,127,1988
-Q133461,A City of Sadness,Hou Hsiao-Hsien,male,158,1989
-Q1579166,Rosencrantz & Guildenstern Are Dead,Tom Stoppard,male,118,1990
-Q1169942,Close to Eden,Nikita Mikhalkov,male,120,1991
-Q605226,Short Cuts,Robert Altman,male,187,1993
-Q932814,Three Colours: Blue,Krzysztof Kieślowski,male,100,1993
-Q711684,Vive L'Amour,Tsai Ming-liang,male,118,1994
-Q911013,Before the Rain,Milcho Manchevski,male,113,1994
-Q2253032,Cyclo,Tran Anh Hung,male,123,1995
-Q430535,Michael Collins,Neil Jordan,male,133,1996
-Q1125897,Hana-bi,Takeshi Kitano,male,103,1997
-Q1752164,The Way We Laughed,Gianni Amelio,male,124,1998
-Q1190863,Not One Less,Zhang Yimou,male,106,1999
-Q1194947,The Circle,Jafar Panahi,male,88,2000
-Q945586,Monsoon Wedding,Mira Nair,female,114,2001
-Q606723,The Magdalene Sisters,Peter Mullan,male,114,2002
-Q385494,The Return,Andrey Zvyagintsev,male,106,2003
-Q916645,Vera Drake,Mike Leigh,male,126,2004
-Q160618,Brokeback Mountain,Ang Lee,male,134,2005
-Q1371155,Still Life,Jia Zhangke,male,111,2006
-Q718524,"Lust, Caution",Ang Lee,male,157,2007
-Q139326,The Wrestler,Darren Aronofsky,male,105,2008
-Q1142358,Lebanon,Samuel Maoz,male,93,2009
-Q1338368,Somewhere,Sofia Coppola,female,98,2010
-Q541354,Faust,Alexander Sokurov,male,134,2011
-Q483197,Pietà,Kim Ki-duk,male,104,2012
-Q14853564,Sacro GRA,Gianfranco Rosi,male,91,2013
-Q10483256,A Pigeon Sat on a Branch Reflecting on Existence,Roy Andersson,male,101,2014
-Q20747599,From Afar,Lorenzo Vigas,male,93,2015
-Q26698156,The Shape of Water,Guillermo del Toro,male,123,2017
-Q27959455,Roma,Alfonso Cuarón,male,135,2018
-Q61740820,Nomadland,Chloé Zhao,female,107,2020
-Q107675028,Happening,Audrey Diwan,female,100,2021
-Q113445202,All the Beauty and the Bloodshed,Laura Poitras,female,122,2022
-Q108760382,Poor Things,Yorgos Lanthimos,male,141,2023
+id,duration,country_code,title,director,gender,country,year_awarded
+Q937385,103,FRA,Manon,Henri-Georges Clouzot,male,France,1949
+Q2283907,105,FRA,Justice Is Done,André Cayatte,male,France,1950
+Q135465,88,JPN,Rashomon,Akira Kurosawa,male,Japan,1951
+Q976558,86,FRA,Forbidden Games,René Clément,male,France,1952
+Q2716956,138,ITA/GBR,Romeo and Juliet,Renato Castellani,male,Italy/United Kingdom,1954
+Q2352630,126,DNK,Ordet,Carl Theodor Dreyer,male,Denmark,1955
+Q622382,105,IND,Aparajito,Satyajit Ray,male,India,1957
+Q1060505,103,JPN,Rickshaw Man,Hiroshi Inagaki,male,Japan,1958
+Q862713,133,ITA/FRA,General della Rovere,Roberto Rossellini,male,Italy/France,1959
+Q150867,137,ITA/FRA,The Great War,Mario Monicelli,male,Italy/France,1959
+Q744482,123,ITA/DEU/FRA,Tomorrow Is My Turn,André Cayatte,male,Italy/Germany/France,1960
+Q225355,94,ITA/DEU/FRA,Last Year at Marienbad,Alain Resnais,male,Italy/Germany/France,1961
+Q1754854,115,ITA/FRA,Family Diary,Valerio Zurlini,male,Italy/France,1962
+Q147878,95,SUN,Ivan's Childhood,Andrei Tarkovsky,male,Soviet Union,1962
+Q2253732,105,ITA/FRA,Hands Over the City,Francesco Rosi,male,Italy/France,1963
+Q399647,117,ITA/FRA,Red Desert,Michelangelo Antonioni,male,Italy/France,1964
+Q1816145,105,ITA,Sandra,Luchino Visconti,male,Italy,1965
+Q784812,117,ITA/DZA,The Battle of Algiers,Gillo Pontecorvo,male,Italy/Algeria,1965
+Q470375,101,FRA,Belle de Jour,Luis Buñuel,male,France,1967
+Q573953,103,DEU,Artists Under the Big Top: Perplexed,Alexander Kluge,male,Germany,1968
+Q756329,104,USA/CAN/FRA,Atlantic City,Louis Malle,male,Canada/France/United States of America,1980
+Q627942,117,USA,Gloria,John Cassavetes,male,United States of America,1980
+Q703966,106,DEU,Marianne and Juliane,Margarethe von Trotta,female,Germany,1981
+Q692367,124,PRT/USA/DEU/FRA,The State of Things,Wim Wenders,male,Portugal/Germany/France/United States of America,1982
+Q2296139,85,FRA/CHE,First Name: Carmen,Jean-Luc Godard,male,France/Switzerland,1983
+Q1094047,106,POL/ITA,A Year of the Quiet Sun,Krzysztof Zanussi,male,Italy/Poland,1984
+Q2298257,100,FRA,Vagabond,Agnès Varda,female,France,1985
+Q1171334,98,FRA,The Green Ray,Éric Rohmer,male,France,1986
+Q187276,104,ITA/DEU/FRA,Au revoir les enfants,Louis Malle,male,Italy/Germany/France,1987
+Q2182637,127,ITA/FRA,The Legend of the Holy Drinker,Ermanno Olmi,male,Italy/France,1988
+Q133461,158,TWN,A City of Sadness,Hou Hsiao-Hsien,male,Taiwan,1989
+Q1579166,118,GBR,Rosencrantz & Guildenstern Are Dead,Tom Stoppard,male,United Kingdom,1990
+Q1169942,120,FRA/SUN,Close to Eden,Nikita Mikhalkov,male,Soviet Union/France,1991
+Q605226,187,USA,Short Cuts,Robert Altman,male,United States of America,1993
+Q932814,100,POL/FRA/CHE,Three Colours: Blue,Krzysztof Kieślowski,male,Poland/France/Switzerland,1993
+Q711684,118,TWN,Vive L'Amour,Tsai Ming-liang,male,Taiwan,1994
+Q911013,113,MKD/FRA/GBR,Before the Rain,Milcho Manchevski,male,North Macedonia/France/United Kingdom,1994
+Q2253032,123,VNM/FRA,Cyclo,Tran Anh Hung,male,Vietnam/France,1995
+Q430535,133,USA/GBR/IRL,Michael Collins,Neil Jordan,male,Republic of Ireland/United Kingdom/United States of America,1996
+Q1125897,103,JPN,Hana-bi,Takeshi Kitano,male,Japan,1997
+Q1752164,124,ITA,The Way We Laughed,Gianni Amelio,male,Italy,1998
+Q1190863,106,CHN,Not One Less,Zhang Yimou,male,People's Republic of China,1999
+Q1194947,88,IRN/ITA/CHE,The Circle,Jafar Panahi,male,Italy/Iran/Switzerland,2000
+Q945586,114,DEU/FRA/GBR/IND/USA/ITA,Monsoon Wedding,Mira Nair,female,United Kingdom/France/Italy/Germany/United States of America/India,2001
+Q606723,114,FRA/IRL/GBR,The Magdalene Sisters,Peter Mullan,male,Republic of Ireland/France/United Kingdom,2002
+Q385494,106,RUS,The Return,Andrey Zvyagintsev,male,Russia,2003
+Q916645,126,FRA/GBR,Vera Drake,Mike Leigh,male,France/United Kingdom,2004
+Q160618,134,USA,Brokeback Mountain,Ang Lee,male,United States of America,2005
+Q1371155,111,HKG/CHN,Still Life,Jia Zhangke,male,Hong Kong/People's Republic of China,2006
+Q718524,157,TWN/USA/CHN,"Lust, Caution",Ang Lee,male,Taiwan/People's Republic of China/United States of America,2007
+Q139326,105,USA/FRA,The Wrestler,Darren Aronofsky,male,France/United States of America,2008
+Q1142358,93,ISR/DEU/FRA/LBN,Lebanon,Samuel Maoz,male,Lebanon/Germany/France/Israel,2009
+Q1338368,98,USA/ITA,Somewhere,Sofia Coppola,female,Italy/United States of America,2010
+Q541354,134,DEU/RUS,Faust,Alexander Sokurov,male,Russia/Germany,2011
+Q483197,104,KOR,Pietà,Kim Ki-duk,male,South Korea,2012
+Q14853564,91,ITA/FRA,Sacro GRA,Gianfranco Rosi,male,Italy/France,2013
+Q10483256,101,NOR/SWE/FRA/DEU,A Pigeon Sat on a Branch Reflecting on Existence,Roy Andersson,male,France/Germany/Sweden/Norway,2014
+Q20747599,93,VEN/MEX,From Afar,Lorenzo Vigas,male,Mexico/Venezuela,2015
+Q26698156,123,USA/MEX,The Shape of Water,Guillermo del Toro,male,Mexico/United States of America,2017
+Q27959455,135,USA/MEX,Roma,Alfonso Cuarón,male,Mexico/United States of America,2018
+Q61740820,107,USA,Nomadland,Chloé Zhao,female,United States of America,2020
+Q107675028,100,FRA,Happening,Audrey Diwan,female,France,2021
+Q113445202,122,USA,All the Beauty and the Bloodshed,Laura Poitras,female,United States of America,2022
+Q108760382,141,USA/GBR/IRL,Poor Things,Yorgos Lanthimos,male,Republic of Ireland/United Kingdom/United States of America,2023

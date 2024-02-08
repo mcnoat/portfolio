@@ -1,5 +1,5 @@
 #AwardWinners
-select ?filmLabel (YEAR(?date) as ?year) ?directorLabel ?genderLabel ?duration ?film
+select ?filmLabel (YEAR(?date) as ?year) ?directorLabel ?genderLabel ?duration ?countryLabel ?countryCode ?film
 where 
 {
   ?film wdt:P31 wd:Q11424. #is a film
@@ -15,12 +15,15 @@ where
             ?durationStatement a wikibase:BestRank . # this gets information out of the "duration box"
   optional {?durationStatement pq:P518 ?version.} # this gets information out of the "duration box"
   filter(!bound(?version) || ?version in (wd:Q26225765)) # select theatrical version
+  optional {?film wdt:P495 ?country}
+  ?country wdt:P298 ?countryCode
 
   service wikibase:label {
     bd:serviceParam wikibase:language "en".
     ?film rdfs:label ?filmLabel.
     ?director rdfs:label ?directorLabel.
     ?gender rdfs:label ?genderLabel.
+    ?country rdfs:label ?countryLabel.
   }
 }
 order by (?year)

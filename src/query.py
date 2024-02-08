@@ -82,7 +82,7 @@ def consecutive_parts(number_list: list[int]) -> list:
 
 def join_duplicates(df: pd.DataFrame):
     """find the duplicate film IDs and join them into single rows"""
-
+    
     result_df = df.groupby("id").agg(lambda x: "/".join(set(x))).reset_index()
 
     for index in result_df.index:
@@ -99,18 +99,9 @@ def join_duplicates(df: pd.DataFrame):
 
 def adjust_datatypes(df: pd.DataFrame):
 
-    integer_columns = ["duration", "year_received"]
+    integer_columns = ["duration", "year_awarded"]
     for integer_column in integer_columns:
-        try:
-            df[integer_column] = df[integer_column].astype(int)
-        except ValueError as e:
-            float_num = [float(num)
-                         for num in df[integer_column].values
-                         if float(num) % 1 != 0][0]
-            float_title = df.loc[df.duration==str(float_num)].title.values[0]
-            error_message = str(e)
-            if "invalid literal for int() with base 10" in error_message:
-                raise ValueError(f"{integer_column} for '{float_title}' contains a float")
+        df[integer_column] = df[integer_column].astype(float).apply(round)
 
     return df
 
@@ -118,8 +109,11 @@ def adjust_datatypes(df: pd.DataFrame):
 def check_df_for_completion(df: pd.DataFrame, award: str):
     last_year = datetime.now().year - 1
 
-    if last_year not in df.year_received.values:
+    if str(last_year) not in df.year_awarded.values:
         raise ValueError(f"Last year's award is missing for {award}")
+    
+    if df["country"].isna().any():
+        raise TypeError(f"There's a film without a country for {award}")
 
 
 def wikidata_to_df(data: dict) -> pd.DataFrame:
@@ -139,7 +133,9 @@ def wikidata_to_df(data: dict) -> pd.DataFrame:
                     "film": "id",
                     "directorLabel": "director",
                     "genderLabel": "gender",
-                    "year": "year_received"})
+                    "year": "year_awarded",
+                    "countryLabel": "country",
+                    "countryCode": "country_code"})
 
     return df
 
@@ -156,9 +152,9 @@ if __name__ == "__main__":
         time.sleep(1)
 
         df_raw = wikidata_to_df(data)
+        check_df_for_completion(df_raw, award)
         df_cleaned = join_duplicates(df_raw)
-        check_df_for_completion(df_cleaned, award)
-        df_sorted = df_cleaned.sort_values(by="year_received", ascending=True)
+        df_sorted = df_cleaned.sort_values(by="year_awarded", ascending=True)
 
         results_dir = ROOT_PATH / "results"
         assert results_dir.exists()
