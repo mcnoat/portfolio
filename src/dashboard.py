@@ -24,8 +24,12 @@ def load_award_df(award: Literal["bear", "lion", "oscar", "palm"]):
 
 # %% data preparataion
 
-df = pd.read_csv("../results/oscar.csv")
-fig = draw.plot_duration(df)
+awards_df = pd.read_csv("../results/awards.csv")
+ymin = awards_df.duration.min()
+ymax = awards_df.duration.max()
+
+df = pd.read_csv("../results/awards.csv")
+fig = draw.plot_duration(df, ymin, ymax)
 
 dropdown_options = []
 awards_dict = utils.load_json("awards.json")
@@ -62,7 +66,7 @@ app.layout = html.Div(
             children=html.Div(
                 className="three columns",
                 children=dcc.Dropdown(
-                    id="dropdown-award", options=dropdown_options, value="bear"
+                    id="dropdown-award", options=dropdown_options, value="oscar"
                 ),
             ),
         ),
@@ -81,7 +85,7 @@ def update_graph(chosen_value):
         return {}
     else:
         df = load_award_df(chosen_value)
-        fig = draw.plot_duration(df)
+        fig = draw.plot_duration(df, ymin, ymax)
         return fig
 
 

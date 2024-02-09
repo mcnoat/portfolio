@@ -14,5 +14,8 @@
   "bear": {
     "id": "Q154590",
     "name": "Berlin Film Festival"
-  }
+  },
+  "europe": {
+    "id": "Q777921",
+    "name": "European Film Awards"}
 }

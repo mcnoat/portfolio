@@ -15,15 +15,17 @@ import pipes as pps
 from utils import ROOT_PATH
 
 
-def plot_duration(df):
+def plot_duration(df, ymin: int = 70, ymax: int = 240):
 
     most_recent_year = list(df.year_awarded)[-1]
     color_lst = ["red" if val == most_recent_year else "blue" for val in df["year_awarded"]]
+    
     fig = px.box(df, y="duration",
+                 range_y=[int(0.98*ymin), int(1.01*ymax)],
                  color=color_lst,
                  points="all",
                  boxmode="overlay",
-                 hover_data=["title"])
+                 hover_data=["title", "year_awarded"])
 
     fig.update_traces(selector=0, name="rest")
     fig.update_traces(selector=1, name=most_recent_year)
@@ -50,8 +52,8 @@ def plot_gender(df):
 
 
 if __name__ == "__main__":
-    df = pd.read_csv(ROOT_PATH / "results" / "oscar.csv")
-    fig = plot_duration(df)
+    df = pd.read_csv(ROOT_PATH / "results" / "awards.csv")
+    fig = plot_duration(df, "oscar")
     fig_dir = ROOT_PATH / "docs" / "assets"
     fig.update_layout(margin=dict(l=10, r=10, t=10, b=10))
     fig.write_image(fig_dir / "duration.png")

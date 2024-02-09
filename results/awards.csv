@@ -1,0 +1,350 @@
+id,duration,country_code,title,director,gender,country,year_awarded,award
+Q272036,141,USA,Wings,Harry d’Abbadie d’Arrast/William Augustus Wellman,male,United States of America,1929,oscar
+Q272599,136,USA,All Quiet on the Western Front,Lewis Milestone,male,United States of America,1930,oscar
+Q463620,110,USA,The Broadway Melody,Harry Beaumont,male,United States of America,1930,oscar
+Q251997,131,USA,Cimarron,Wesley Ruggles,male,United States of America,1931,oscar
+Q246656,113,USA,Grand Hotel,Edmund Goulding,male,United States of America,1932,oscar
+Q753107,110,USA,Cavalcade,Frank Lloyd,male,United States of America,1934,oscar
+Q208632,105,USA,It Happened One Night,Frank Capra,male,United States of America,1935,oscar
+Q329709,132,USA,Mutiny on the Bounty,Frank Lloyd,male,United States of America,1936,oscar
+Q470218,176,USA,The Great Ziegfeld,Robert Z. Leonard,male,United States of America,1937,oscar
+Q738552,116,USA,The Life of Emile Zola,William Dieterle,male,United States of America,1938,oscar
+Q637835,126,USA,You Can't Take It With You,Frank Capra,male,United States of America,1939,oscar
+Q2875,238,USA,Gone with the Wind,Sam Wood/Victor Fleming/George Cukor,male,United States of America,1940,oscar
+Q204212,126,USA,Rebecca,Alfred Hitchcock,male,United States of America,1941,oscar
+Q244448,118,USA,How Green Was My Valley,John Ford,male,United States of America,1942,oscar
+Q478371,134,USA,Mrs. Miniver,William Wyler,male,United States of America,1943,oscar
+Q132689,102,USA,Casablanca,Michael Curtiz,male,United States of America,1944,oscar
+Q468877,130,USA,Going My Way,Leo McCarey,male,United States of America,1945,oscar
+Q237134,101,USA,The Lost Weekend,Billy Wilder,male,United States of America,1946,oscar
+Q645094,172,USA,The Best Years of Our Lives,William Wyler,male,United States of America,1947,oscar
+Q898840,118,USA,Gentleman's Agreement,Elia Kazan,male,United States of America,1948,oscar
+Q27178,150,GBR,Hamlet,Laurence Olivier,male,United Kingdom,1949,oscar
+Q817159,109,USA,All the King's Men,Robert Rossen,male,United States of America,1950,oscar
+Q200299,138,USA,All About Eve,Joseph L. Mankiewicz,male,United States of America,1951,oscar
+Q747570,108,USA,An American in Paris,Vincente Minnelli,male,United States of America,1952,oscar
+Q641061,152,USA,The Greatest Show on Earth,Cecil B. DeMille,male,United States of America,1953,oscar
+Q207588,118,USA,From Here to Eternity,Fred Zinnemann,male,United States of America,1954,oscar
+Q211372,108,USA,On the Waterfront,Elia Kazan,male,United States of America,1955,oscar
+Q237116,91,USA,Marty,Paul Helmick/Delbert Mann,male,United States of America,1956,oscar
+Q696057,184,ITA/GBR/FRA/USA,Around the World in 80 Days,Michael Anderson/John Farrow,male,United States of America/United Kingdom/France/Italy,1957,oscar
+Q188718,156,GBR/USA,The Bridge on the River Kwai,David Lean,male,United States of America/United Kingdom,1958,oscar
+Q577757,119,USA,Gigi,Vincente Minnelli/Charles Walters,male,United States of America,1959,oscar
+Q180098,222,USA,Ben-Hur,William Wyler,male,United States of America,1960,oscar
+Q270510,125,USA,The Apartment,Billy Wilder,male,United States of America,1961,oscar
+Q273704,150,USA,West Side Story,Robert Wise/Jerome Robbins,male,United States of America,1962,oscar
+Q228186,216,GBR/USA,Lawrence of Arabia,David Lean,male,United States of America/United Kingdom,1963,oscar
+Q313315,128,GBR,Tom Jones,Tony Richardson,male,United Kingdom,1964,oscar
+Q201215,171,USA,My Fair Lady,George Cukor,male,United States of America,1965,oscar
+Q60072,174,USA,The Sound of Music,Robert Wise,male,United States of America,1966,oscar
+Q218999,118,GBR,A Man for All Seasons,Fred Zinnemann,male,United Kingdom,1967,oscar
+Q622240,109,USA,In the Heat of the Night,Norman Jewison,male,United States of America,1968,oscar
+Q141359,146,GBR,Oliver!,Carol Reed,male,United Kingdom,1969,oscar
+Q61696,108,USA,Midnight Cowboy,John Schlesinger,male,United States of America,1970,oscar
+Q217220,170,USA,Patton,Franklin J. Schaffner,male,United States of America,1971,oscar
+Q220735,104,USA,The French Connection,William Friedkin,male,United States of America,1972,oscar
+Q47703,175,ITA/USA,The Godfather,Francis Ford Coppola,male,United States of America/Italy,1973,oscar
+Q62665,129,USA,The Sting,George Roy Hill,male,United States of America,1974,oscar
+Q184768,202,USA,The Godfather Part II,Francis Ford Coppola,male,United States of America,1975,oscar
+Q171669,133,USA,One Flew Over the Cuckoo's Nest,Miloš Forman,male,United States of America,1976,oscar
+Q188652,119,USA,Rocky,John G. Avildsen,male,United States of America,1977,oscar
+Q233464,93,USA,Annie Hall,Woody Allen,male,United States of America,1978,oscar
+Q201674,182,USA,The Deer Hunter,Michael Cimino,male,United States of America,1979,oscar
+Q193577,100,USA,Kramer vs. Kramer,Robert Benton,male,United States of America,1980,oscar
+Q202211,181,GBR/IND,Gandhi,Richard Attenborough,male,United Kingdom/India,1981,oscar
+Q503313,124,USA,Ordinary People,Robert Redford,male,United States of America,1981,oscar
+Q207921,118,GBR,Chariots of Fire,Hugh Hudson,male,United Kingdom,1982,oscar
+Q185071,132,USA,Terms of Endearment,James L. Brooks,male,United States of America,1984,oscar
+Q190956,161,USA,Amadeus,Miloš Forman,male,United States of America,1985,oscar
+Q208266,160,USA,Out of Africa,Sydney Pollack,male,United States of America,1986,oscar
+Q190643,115,USA,Platoon,Oliver Stone,male,United States of America,1987,oscar
+Q212775,165,ITA/CHN/GBR/FRA,The Last Emperor,Bernardo Bertolucci,male,United Kingdom/France/People's Republic of China/Italy,1988,oscar
+Q188845,128,USA,Rain Man,Barry Levinson,male,United States of America,1989,oscar
+Q211373,99,USA,Driving Miss Daisy,Bruce Beresford,male,United States of America,1990,oscar
+Q20456,181,USA,Dances with Wolves,Kevin Costner,male,United States of America,1991,oscar
+Q133654,118,USA,The Silence of the Lambs,Jonathan Demme,male,United States of America,1992,oscar
+Q104137,131,USA,Unforgiven,Clint Eastwood,male,United States of America,1993,oscar
+Q483941,195,USA,Schindler's List,Steven Spielberg,male,United States of America,1994,oscar
+Q134773,136,USA,Forrest Gump,Robert Zemeckis,male,United States of America,1995,oscar
+Q162729,177,USA,Braveheart,Mel Gibson,male,United States of America,1996,oscar
+Q63026,162,GBR/USA,The English Patient,Anthony Minghella,male,United States of America/United Kingdom,1997,oscar
+Q44578,194,USA,Titanic,James Cameron,male,United States of America,1998,oscar
+Q182944,123,GBR/USA,Shakespeare in Love,John Madden,male,United States of America/United Kingdom,1999,oscar
+Q25139,121,USA,American Beauty,Sam Mendes,male,United States of America,2000,oscar
+Q128518,155,GBR/USA,Gladiator,Ridley Scott,male,United States of America/United Kingdom,2001,oscar
+Q164103,135,USA,A Beautiful Mind,Ron Howard,male,United States of America,2002,oscar
+Q189889,113,CAN/DEU/USA,Chicago,Rob Marshall,male,United States of America/Canada/Germany,2003,oscar
+Q131074,200,NZL/USA,The Lord of the Rings: The Return of the King,Peter Jackson,male,United States of America/New Zealand,2004,oscar
+Q184255,132,USA,Million Dollar Baby,Clint Eastwood,male,United States of America,2005,oscar
+Q188000,112,DEU/USA,Crash,Paul Haggis,male,United States of America/Germany,2006,oscar
+Q172975,152,USA,The Departed,Martin Scorsese,male,United States of America,2007,oscar
+Q183081,122,USA,No Country for Old Men,Ethan Coen/Joel Coen,male,United States of America,2008,oscar
+Q125076,120,GBR,Slumdog Millionaire,Loveleen Tandan/Danny Boyle,male/female,United Kingdom,2009,oscar
+Q183066,131,USA,The Hurt Locker,Kathryn Bigelow,female,United States of America,2010,oscar
+Q160060,118,GBR,The King's Speech,Tom Hooper,male,United Kingdom,2011,oscar
+Q171861,100,BEL/FRA,The Artist,Michel Hazanavicius,male,France/Belgium,2012,oscar
+Q59653,120,USA,Argo,Ben Affleck,male,United States of America,2013,oscar
+Q3023357,133,GBR/USA,12 Years a Slave,Steve McQueen,male,United States of America/United Kingdom,2014,oscar
+Q13255497,119,USA,Birdman,Alejandro González Iñárritu,male,United States of America,2015,oscar
+Q18154496,127,USA,Spotlight,Tom McCarthy,male,United States of America,2016,oscar
+Q21527875,111,USA,Moonlight,Barry Jenkins,male,United States of America,2017,oscar
+Q26698156,123,MEX/USA,The Shape of Water,Guillermo del Toro,male,United States of America/Mexico,2018,oscar
+Q48673898,130,USA,Green Book,Peter Farrelly,male,United States of America,2019,oscar
+Q61448040,132,KOR,Parasite,Bong Joon-ho,male,South Korea,2020,oscar
+Q61740820,107,USA,Nomadland,Chloé Zhao,female,United States of America,2021,oscar
+Q104686893,111,CAN/FRA/USA,CODA,Siân Héder,female,United States of America/Canada/France,2022,oscar
+Q83808444,139,USA,Everything Everywhere All at Once,Daniel Scheinert/Dan Kwan,male,United States of America,2023,oscar
+Q237116,91,USA,Marty,Paul Helmick/Delbert Mann,male,United States of America,1955,palm
+Q289648,85,ITA/FRA,The Silent World,Louis Malle/Jacques Cousteau,male,France/Italy,1956,palm
+Q1621402,137,USA,Friendly Persuasion,William Wyler,male,United States of America,1957,palm
+Q714524,97,SUN,The Cranes Are Flying,Mikhail Kalatozov,male,Soviet Union,1958,palm
+Q538266,107,ITA/BRA/FRA,Black Orpheus,Marcel Camus,male,France/Brazil/Italy,1959,palm
+Q18407,174,ITA/FRA,La Dolce Vita,Federico Fellini,male,France/Italy,1960,palm
+Q2661411,85,ITA/FRA,The Long Absence,Henri Colpi,male,France/Italy,1961,palm
+Q852841,90,MEX/ESP,Viridiana,Luis Buñuel,male,Mexico/Spain,1961,palm
+Q1482269,92,BRA,O Pagador de Promessas,Anselmo Duarte,male,Brazil,1962,palm
+Q596623,183,ITA/FRA,The Leopard,Luchino Visconti,male,France/Italy,1963,palm
+Q163868,91,FRA,The Umbrellas of Cherbourg,Jacques Demy,male,France,1964,palm
+Q1198726,85,GBR,The Knack ...and How to Get It,Richard Lester,male,United Kingdom,1965,palm
+Q261403,102,FRA,A Man and a Woman,Claude Lelouch,male,France,1966,palm
+Q319275,115,ITA/FRA,"The Birds, the Bees and the Italians",Pietro Germi,male,France/Italy,1966,palm
+Q658204,111,ITA/GBR,Blowup,Michelangelo Antonioni,male,United Kingdom/Italy,1967,palm
+Q1346745,111,GBR,If....,Lindsay Anderson,male,United Kingdom,1969,palm
+Q494085,116,USA,MASH,Robert Altman,male,United States of America,1970,palm
+Q664020,118,GBR,The Go-Between,Joseph Losey,male,United Kingdom,1971,palm
+Q1197936,120,ITA,The Working Class Goes to Heaven,Elio Petri,male,Italy,1972,palm
+Q2755251,110,ITA,The Mattei Affair,Francesco Rosi,male,Italy,1972,palm
+Q1344329,112,USA,Scarecrow,Jerry Schatzberg,male,United States of America,1973,palm
+Q1118527,95,GBR,The Hireling,Alan Bridges,male,United Kingdom,1973,palm
+Q1009788,109,USA,The Conversation,Francis Ford Coppola,male,United States of America,1974,palm
+Q2713929,177,DZA,Chronicle of the Years of Fire,Mohammed Lakhdar-Hamina,male,Algeria,1975,palm
+Q47221,114,USA,Taxi Driver,Martin Scorsese,male,United States of America,1976,palm
+Q527598,113,ITA,Padre Padrone,Vittorio Taviani/Paolo Taviani,male,Italy,1977,palm
+Q1194413,186,ITA,The Tree of Wooden Clogs,Ermanno Olmi,male,Italy,1978,palm
+Q313764,142,FRA/DEU,The Tin Drum,Volker Schlöndorff,male,France/Germany,1979,palm
+Q182692,153,USA,Apocalypse Now,Francis Ford Coppola,male,United States of America,1979,palm
+Q854990,179,JPN/USA,Kagemusha,Akira Kurosawa,male,Japan/United States of America,1980,palm
+Q1353441,123,USA,All That Jazz,Bob Fosse,male,United States of America,1980,palm
+Q959682,147,POL,Man of Iron,Andrzej Wajda,male,Poland,1981,palm
+Q683020,114,TUR,Yol,Şerif Gören/Yılmaz Güney,male,Turkey,1982,palm
+Q400985,122,USA,Missing,Costa-Gavras,male,United States of America,1982,palm
+Q1140513,130,JPN,The Ballad of Narayama,Shohei Imamura,male,Japan,1983,palm
+Q160946,147,GBR/DEU/FRA/USA,"Paris, Texas",Wim Wenders,male,United States of America/United Kingdom/France/Germany,1984,palm
+Q433000,136,YUG,When Father Was Away on Business,Emir Kusturica,male,Socialist Federal Republic of Yugoslavia,1985,palm
+Q302490,126,GBR/FRA,The Mission,Roland Joffé,male,United Kingdom/France,1986,palm
+Q389971,93,FRA,Under the Sun of Satan,Maurice Pialat,male,France,1987,palm
+Q370707,157,SWE/DNK,Pelle the Conqueror,Bille August,male,Denmark/Sweden,1988,palm
+Q1367548,101,USA,"Sex, Lies, an d Videotape",Steven Soderbergh,male,United States of America,1989,palm
+Q751382,120,USA,Wild at Heart,David Lynch,male,United States of America,1990,palm
+Q237215,116,GBR/USA,Barton Fink,Ethan Coen/Joel Coen,male,United States of America/United Kingdom,1991,palm
+Q696413,171,CHN,Farewell My Concubine,Chen Kaige,male,People's Republic of China,1993,palm
+Q117315,121,GBR/AUS/NZL/FRA,The Piano,Jane Campion,female,Australia/New Zealand/United Kingdom/France,1993,palm
+Q104123,154,USA,Pulp Fiction,Quentin Tarantino,male,United States of America,1994,palm
+Q156516,163,BGR/HUN/YUG/FRA/DEU/CZE,Underground,Emir Kusturica,male,Federal Republic of Yugoslavia/Czech Republic/Bulgaria/France/Germany/Hungary,1995,palm
+Q391172,142,GBR,Secrets & Lies,Mike Leigh,male,United Kingdom,1996,palm
+Q1156892,110,JPN,The Eel,Shohei Imamura,male,Japan,1997,palm
+Q794178,95,IRN,Taste of Cherry,Abbas Kiarostami,male,Iran,1997,palm
+Q697770,137,ITA/DEU/FRA/GRC,Eternity and a Day,Thodoros Angelopoulos,male,France/Greece/Italy/Germany,1998,palm
+Q1907380,93,BEL/FRA,Rosetta,Jean-Pierre Dardenne/Luc Dardenne,male,France/Belgium,1999,palm
+Q110365,140,ISL/NOR/ESP/SWE/NLD/DEU/GBR/FIN/DNK/USA/FRA/ITA/ARG,Dancer in the Dark,Lars von Trier,male,Spain/Sweden/Denmark/Netherlands/United Kingdom/Norway/Finland/United States of America/Iceland/France/Germany/Italy/Argentina,2000,palm
+Q530812,99,ITA/FRA,The Son's Room,Nanni Moretti,male,France/Italy,2001,palm
+Q150804,149,GBR/POL/FRA/DEU,The Pianist,Roman Polanski,male,United Kingdom/Poland/France/Germany,2002,palm
+Q1163943,81,USA,Elephant,Gus Van Sant,male,United States of America,2003,palm
+Q221852,122,USA,Fahrenheit 9/11,Michael Moore,male,United States of America,2004,palm
+Q466024,95,BEL/FRA,The Child,Jean-Pierre Dardenne/Luc Dardenne,male,France/Belgium,2005,palm
+Q827106,127,ESP/CHE/GBR/IRL/FRA/DEU/BEL/ITA,The Wind That Shakes the Barley,Ken Loach,male,Spain/United Kingdom/France/Belgium/Italy/Germany/Republic of Ireland/Switzerland,2006,palm
+Q238245,113,ROU,"4 Months, 3 Weeks and 2 Days",Cristian Mungiu,male,Romania,2007,palm
+Q1139259,128,FRA,The Class,Laurent Cantet,male,France,2008,palm
+Q158023,144,AUT/ITA/FRA/DEU,The White Ribbon,Michael Haneke,male,France/Austria/Italy/Germany,2009,palm
+Q553901,113,THA/FRA,Uncle Boonmee Who Can Recall His Past Lives,Apichatpong Weerasethakul,male,France/Thailand,2010,palm
+Q244257,138,USA,The Tree of Life,Terrence Malick,male,United States of America,2011,palm
+Q637820,127,AUT/FRA/DEU,Amour,Michael Haneke,male,France/Austria/Germany,2012,palm
+Q11648811,179,BEL/FRA/ESP,Blue Is the Warmest Colour,Abdellatif Kechiche,male,Spain/France/Belgium,2013,palm
+Q15921329,196,DEU/FRA/TUR,Winter Sleep,Nuri Bilge Ceylan,male,Turkey/France/Germany,2014,palm
+Q19816574,109,FRA,Dheepan,Jacques Audiard,male,France,2015,palm
+Q23823458,100,BEL/GBR/FRA,"I, Daniel Blake",Ken Loach,male,United Kingdom/France/Belgium,2016,palm
+Q27237522,152,SWE/FRA/DNK/DEU,The Square,Ruben Östlund,male,Denmark/Sweden/France/Germany,2017,palm
+Q48765577,121,JPN,Shoplifters,Hirokazu Koreeda,male,Japan,2018,palm
+Q105393862,108,BEL/FRA,Titane,Julia Ducournau,female,France/Belgium,2019,palm
+Q61448040,132,KOR,Parasite,Bong Joon-ho,male,South Korea,2019,palm
+Q97304180,149,SWE/DEU/GRC/USA/GBR/DNK/TUR/MEX/FRA,Triangle of Sadness,Ruben Östlund,male,Denmark/Sweden/United Kingdom/Mexico/Greece/United States of America/France/Germany/Turkey,2022,palm
+Q117037697,150,FRA,Anatomy of a Fall,Justine Triet,female,France,2023,palm
+Q937385,103,FRA,Manon,Henri-Georges Clouzot,male,France,1949,lion
+Q2283907,105,FRA,Justice Is Done,André Cayatte,male,France,1950,lion
+Q135465,88,JPN,Rashomon,Akira Kurosawa,male,Japan,1951,lion
+Q976558,86,FRA,Forbidden Games,René Clément,male,France,1952,lion
+Q2716956,138,ITA/GBR,Romeo and Juliet,Renato Castellani,male,United Kingdom/Italy,1954,lion
+Q2352630,126,DNK,Ordet,Carl Theodor Dreyer,male,Denmark,1955,lion
+Q622382,105,IND,Aparajito,Satyajit Ray,male,India,1957,lion
+Q1060505,103,JPN,Rickshaw Man,Hiroshi Inagaki,male,Japan,1958,lion
+Q862713,133,ITA/FRA,General della Rovere,Roberto Rossellini,male,France/Italy,1959,lion
+Q150867,137,ITA/FRA,The Great War,Mario Monicelli,male,France/Italy,1959,lion
+Q744482,123,ITA/FRA/DEU,Tomorrow Is My Turn,André Cayatte,male,France/Italy/Germany,1960,lion
+Q225355,94,ITA/FRA/DEU,Last Year at Marienbad,Alain Resnais,male,France/Italy/Germany,1961,lion
+Q1754854,115,ITA/FRA,Family Diary,Valerio Zurlini,male,France/Italy,1962,lion
+Q147878,95,SUN,Ivan's Childhood,Andrei Tarkovsky,male,Soviet Union,1962,lion
+Q2253732,105,ITA/FRA,Hands Over the City,Francesco Rosi,male,France/Italy,1963,lion
+Q399647,117,ITA/FRA,Red Desert,Michelangelo Antonioni,male,France/Italy,1964,lion
+Q784812,117,ITA/DZA,The Battle of Algiers,Gillo Pontecorvo,male,Algeria/Italy,1965,lion
+Q1816145,105,ITA,Sandra,Luchino Visconti,male,Italy,1965,lion
+Q470375,101,FRA,Belle de Jour,Luis Buñuel,male,France,1967,lion
+Q573953,103,DEU,Artists Under the Big Top: Perplexed,Alexander Kluge,male,Germany,1968,lion
+Q756329,104,CAN/FRA/USA,Atlantic City,Louis Malle,male,United States of America/Canada/France,1980,lion
+Q627942,117,USA,Gloria,John Cassavetes,male,United States of America,1980,lion
+Q703966,106,DEU,Marianne and Juliane,Margarethe von Trotta,female,Germany,1981,lion
+Q692367,124,PRT/DEU/FRA/USA,The State of Things,Wim Wenders,male,Portugal/United States of America/France/Germany,1982,lion
+Q2296139,85,CHE/FRA,First Name: Carmen,Jean-Luc Godard,male,France/Switzerland,1983,lion
+Q1094047,106,ITA/POL,A Year of the Quiet Sun,Krzysztof Zanussi,male,Poland/Italy,1984,lion
+Q2298257,100,FRA,Vagabond,Agnès Varda,female,France,1985,lion
+Q1171334,98,FRA,The Green Ray,Éric Rohmer,male,France,1986,lion
+Q187276,104,ITA/FRA/DEU,Au revoir les enfants,Louis Malle,male,France/Italy/Germany,1987,lion
+Q2182637,127,ITA/FRA,The Legend of the Holy Drinker,Ermanno Olmi,male,France/Italy,1988,lion
+Q133461,158,TWN,A City of Sadness,Hou Hsiao-Hsien,male,Taiwan,1989,lion
+Q1579166,118,GBR,Rosencrantz & Guildenstern Are Dead,Tom Stoppard,male,United Kingdom,1990,lion
+Q1169942,120,FRA/SUN,Close to Eden,Nikita Mikhalkov,male,France/Soviet Union,1991,lion
+Q932814,100,CHE/POL/FRA,Three Colours: Blue,Krzysztof Kieślowski,male,Poland/Switzerland/France,1993,lion
+Q605226,187,USA,Short Cuts,Robert Altman,male,United States of America,1993,lion
+Q711684,118,TWN,Vive L'Amour,Tsai Ming-liang,male,Taiwan,1994,lion
+Q911013,113,GBR/MKD/FRA,Before the Rain,Milcho Manchevski,male,United Kingdom/France/North Macedonia,1994,lion
+Q2253032,123,VNM/FRA,Cyclo,Tran Anh Hung,male,France/Vietnam,1995,lion
+Q430535,133,GBR/IRL/USA,Michael Collins,Neil Jordan,male,United States of America/United Kingdom/Republic of Ireland,1996,lion
+Q1125897,103,JPN,Hana-bi,Takeshi Kitano,male,Japan,1997,lion
+Q1752164,124,ITA,The Way We Laughed,Gianni Amelio,male,Italy,1998,lion
+Q1190863,106,CHN,Not One Less,Zhang Yimou,male,People's Republic of China,1999,lion
+Q1194947,88,ITA/CHE/IRN,The Circle,Jafar Panahi,male,Switzerland/Italy/Iran,2000,lion
+Q945586,114,IND/USA/GBR/FRA/DEU/ITA,Monsoon Wedding,Mira Nair,female,United Kingdom/United States of America/France/Germany/Italy/India,2001,lion
+Q606723,114,GBR/IRL/FRA,The Magdalene Sisters,Peter Mullan,male,United Kingdom/France/Republic of Ireland,2002,lion
+Q385494,106,RUS,The Return,Andrey Zvyagintsev,male,Russia,2003,lion
+Q916645,126,GBR/FRA,Vera Drake,Mike Leigh,male,United Kingdom/France,2004,lion
+Q160618,134,USA,Brokeback Mountain,Ang Lee,male,United States of America,2005,lion
+Q1371155,111,CHN/HKG,Still Life,Jia Zhangke,male,People's Republic of China/Hong Kong,2006,lion
+Q718524,157,CHN/TWN/USA,"Lust, Caution",Ang Lee,male,United States of America/People's Republic of China/Taiwan,2007,lion
+Q139326,105,FRA/USA,The Wrestler,Darren Aronofsky,male,United States of America/France,2008,lion
+Q1142358,93,LBN/ISR/FRA/DEU,Lebanon,Samuel Maoz,male,Israel/France/Germany/Lebanon,2009,lion
+Q1338368,98,ITA/USA,Somewhere,Sofia Coppola,female,United States of America/Italy,2010,lion
+Q541354,134,RUS/DEU,Faust,Alexander Sokurov,male,Germany/Russia,2011,lion
+Q483197,104,KOR,Pietà,Kim Ki-duk,male,South Korea,2012,lion
+Q14853564,91,ITA/FRA,Sacro GRA,Gianfranco Rosi,male,France/Italy,2013,lion
+Q10483256,101,SWE/NOR/FRA/DEU,A Pigeon Sat on a Branch Reflecting on Existence,Roy Andersson,male,Sweden/Norway/France/Germany,2014,lion
+Q20747599,93,MEX/VEN,From Afar,Lorenzo Vigas,male,Mexico/Venezuela,2015,lion
+Q26698156,123,MEX/USA,The Shape of Water,Guillermo del Toro,male,United States of America/Mexico,2017,lion
+Q27959455,135,MEX/USA,Roma,Alfonso Cuarón,male,United States of America/Mexico,2018,lion
+Q61740820,107,USA,Nomadland,Chloé Zhao,female,United States of America,2020,lion
+Q107675028,100,FRA,Happening,Audrey Diwan,female,France,2021,lion
+Q113445202,122,USA,All the Beauty and the Bloodshed,Laura Poitras,female,United States of America,2022,lion
+Q108760382,141,GBR/IRL/USA,Poor Things,Yorgos Lanthimos,male,United States of America/United Kingdom/Republic of Ireland,2023,lion
+Q2283907,105,FRA,Justice Is Done,André Cayatte,male,France,1951,bear
+Q1403096,90,FRA,Without Leaving an Address,Jean-Paul Le Chanois,male,France,1951,bear
+Q520462,100,CHE,Four in a Jeep,Leopold Lindtberg,male,Switzerland,1951,bear
+Q1536123,95,SWE,One Summer of Happiness,Arne Mattsson,male,Sweden,1952,bear
+Q465773,148,ITA/FRA,The Wages of Fear,Henri-Georges Clouzot,male,France/Italy,1953,bear
+Q1613944,107,GBR,Hobson's Choice,David Lean,male,United Kingdom,1954,bear
+Q554975,97,DEU,Die Ratten,Robert Siodmak,male,Germany,1955,bear
+Q1308277,93,USA,Invitation to the Dance,Gene Kelly,male,United States of America,1956,bear
+Q2345,95,USA,12 Angry Men,Sidney Lumet,male,United States of America,1957,bear
+Q239756,92,SWE,Wild Strawberries,Ingmar Bergman,male,Sweden,1958,bear
+Q141557,108,FRA,The Cousins,Claude Chabrol/Philippe de Broca,male,France,1959,bear
+Q1215047,122,ITA/FRA,La Notte,Michelangelo Antonioni,male,France/Italy,1961,bear
+Q1477112,107,GBR,A Kind of Loving,John Schlesinger,male,United Kingdom,1962,bear
+Q474072,98,ITA,Il diavolo,Gian Luigi Polidoro,male,Italy,1963,bear
+Q1403726,122,JPN,"Bushido, Samurai Saga",Tadashi Imai,male,Japan,1963,bear
+Q1542380,90,TUR,Dry Summer,Metin Erksan,male,Turkey,1964,bear
+Q542688,89,ITA/FRA,Alphaville,Jean-Luc Godard,male,France/Italy,1965,bear
+Q1637787,111,GBR,Cul-de-sac,Roman Polanski,male,United Kingdom,1966,bear
+Q1197125,93,BEL/FRA,The Departure,Jerzy Skolimowski,male,France/Belgium,1967,bear
+Q532112,110,SWE,Who Saw Him Die?,Jan Troell,male,Sweden,1968,bear
+Q683014,89,ITA,The Garden of the Finzi-Continis,Vittorio De Sica,male,Italy,1971,bear
+Q858047,110,ITA/FRA,The Canterbury Tales,Pier Paolo Pasolini,male,France/Italy,1972,bear
+Q715026,97,IND,Distant Thunder,Satyajit Ray,male,India,1973,bear
+Q1402938,120,CAN,The Apprenticeship of Duddy Kravitz,Ted Kotcheff,male,Canada,1974,bear
+Q1475202,89,HUN,Adoption,Márta Mészáros,female,Hungary,1975,bear
+Q1001943,123,USA,"Buffalo Bill and the Indians, or Sitting Bull's History Lesson",Robert Altman,male,United States of America,1976,bear
+Q760053,110,SUN,The Ascent,Larisa Shepitko,female,Soviet Union,1977,bear
+Q3015346,97,ESP,What Max Said,Emilio Martínez-Lázaro,male,Spain,1978,bear
+Q3218260,99,ESP,Las truchas,José Luis García Sánchez,male,Spain,1978,bear
+Q325286,127,DEU,David,Peter Lilienthal,male,Germany,1979,bear
+Q322107,180,CHE/DEU,Palermo or Wolfsburg,Werner Schroeter,male,Germany/Switzerland,1980,bear
+Q1402558,96,USA,Heartland,Richard Pearce,male,United States of America,1980,bear
+Q922099,99,FRA/ESP,"Deprisa, Deprisa",Carlos Saura,male,Spain/France,1981,bear
+Q703188,100,DEU,Veronika Voss,Rainer Werner Fassbinder,male,Germany,1982,bear
+Q2607773,92,GBR,Ascendancy,Edward Bennett,male,United Kingdom,1983,bear
+Q2521232,141,USA,Love Streams,John Cassavetes,male,United States of America,1984,bear
+Q480773,97,DDR/DEU,The Woman and the Stranger,Rainer Simon,male,Germany/German Democratic Republic,1985,bear
+Q3420924,102,GBR,Wetherby,David Hare,male,United Kingdom,1985,bear
+Q571512,107,DEU,Stammheim,Reinhard Hauff,male,Germany,1986,bear
+Q734048,99,SUN,The Theme,Gleb Panfilov,male,Soviet Union,1987,bear
+Q166588,91,CHN,Red Sorghum,Zhang Yimou,male,People's Republic of China,1988,bear
+Q188845,128,USA,Rain Man,Barry Levinson,male,United States of America,1989,bear
+Q1427849,124,USA,Music Box,Costa-Gavras,male,United States of America,1990,bear
+Q2303863,94,CSK,Larks on a String,Jiří Menzel,male,Czechoslovakia,1990,bear
+Q1088798,110,ITA,The House of Smiles,Marco Ferreri,male,Italy,1991,bear
+Q1542548,134,USA,Grand Canyon,Lawrence Kasdan,male,United States of America,1992,bear
+Q182071,103,TWN/USA,The Wedding Banquet,Ang Lee,male,United States of America/Taiwan,1993,bear
+Q1088947,105,CHN,Woman Sesame Oil Maker,Xie Fei,male,People's Republic of China,1993,bear
+Q304074,133,GBR/IRL/USA,In the Name of the Father,Jim Sheridan,male,United States of America/United Kingdom/Republic of Ireland,1994,bear
+Q1087039,113,FRA,The Bait,Bertrand Tavernier,male,France,1995,bear
+Q643263,136,GBR/USA,Sense and Sensibility,Ang Lee,male,United States of America/United Kingdom,1996,bear
+Q750077,130,USA,The People vs. Larry Flynt,Miloš Forman,male,United States of America,1997,bear
+Q1054036,113,BRA/FRA,Central Station,Walter Salles,male,France/Brazil,1998,bear
+Q221491,166,USA,The Thin Red Line,Terrence Malick,male,United States of America,1999,bear
+Q588420,188,USA,Magnolia,Paul Thomas Anderson,male,United States of America,2000,bear
+Q76827,117,GBR/FRA,Intimacy,Patrice Chéreau,male,United Kingdom/France,2001,bear
+Q885302,110,GBR/IRL,Bloody Sunday,Paul Greengrass,male,United Kingdom/Republic of Ireland,2002,bear
+Q1458594,86,GBR,In This World,Michael Winterbottom,male,United Kingdom,2003,bear
+Q325648,116,DEU/TUR,Head-On,Fatih Akin,male,Turkey/Germany,2004,bear
+Q1138876,106,USA,In Good Company,Paul Weitz/Lawrence Pressman,male,United States of America,2005,bear
+Q2141815,120,ZAF,U-Carmen eKhayelitsha,Mark Dornford-May,male,South Africa,2005,bear
+Q116171,107,AUT/HRV/BIH/DEU,Grbavica,Jasmila Žbanić,female,Bosnia and Herzegovina/Germany/Croatia/Austria,2006,bear
+Q430987,96,CHN,Tuya's Marriage,Wang Quan'an,male,People's Republic of China,2007,bear
+Q282781,118,BRA,Elite Squad,José Padilha,male,Brazil,2008,bear
+Q1129420,94,PER/ESP,The Milk of Sorrow,Claudia Llosa,female,Peru/Spain,2009,bear
+Q804582,104,DEU/TUR,Honey,Semih Kaplanoğlu,male,Turkey/Germany,2010,bear
+Q640561,123,IRN,A Separation,Asghar Farhadi,male,Iran,2011,bear
+Q1059540,76,ITA,Caesar Must Die,Vittorio Taviani/Paolo Taviani,male,Italy,2012,bear
+Q4778856,112,ROU,Child's Pose,Călin Peter Netzer,male,Romania,2013,bear
+Q15731283,106,CHN/HKG,"Black Coal, Thin Ice",Diao Yinan,male,People's Republic of China/Hong Kong,2014,bear
+Q18844625,82,IRN,Taxi,Jafar Panahi,male,Iran,2015,bear
+Q22238173,108,ITA/FRA,Fire at Sea,Gianfranco Rosi,male,France/Italy,2016,bear
+Q44869778,125,BGR/FRA/DEU/ROU/CZE,Touch Me Not,Adina Pintilie,female,Czech Republic/Bulgaria/Romania/France/Germany,2018,bear
+Q61672685,123,ISR/FRA/DEU,Synonyms,Nadav Lapid,male,Israel/France/Germany,2019,bear
+Q84321441,151,CZE/IRN/DEU,There Is No Evil,Mohammad Rasoulof,male,Germany/Czech Republic/Iran,2020,bear
+Q105441000,106,HRV/LUX/ROU/CZE,Bad Luck Banging or Loony Porn,Radu Jude,male,Luxembourg/Romania/Croatia/Czech Republic,2021,bear
+Q110622667,120,ITA/ESP,Alcarràs,Carla Simón,female,Spain/Italy,2022,bear
+Q116414358,109,FRA/JPN,On the Adamant,Nicolas Philibert,male,Japan/France,2023,bear
+Q72325,84,POL,A Short Film About Killing,Krzysztof Kieślowski,male,Poland,1988,europe
+Q1803756,125,ITA/FRA/GRC,Landscape in the Mist,Thodoros Angelopoulos,male,France/Greece/Italy,1989,europe
+Q647044,108,ITA,Open Doors,Gianni Amelio,male,Italy,1990,europe
+Q648032,95,GBR,Riff-Raff,Ken Loach,male,United Kingdom,1991,europe
+Q647997,110,ITA/CHE/FRA,The Stolen Children,Gianni Amelio,male,France/Switzerland/Italy,1992,europe
+Q1169942,120,FRA/SUN,Close to Eden,Nikita Mikhalkov,male,France/Soviet Union,1993,europe
+Q1738422,116,ITA/FRA,Lamerica,Gianni Amelio,male,France/Italy,1994,europe
+Q643805,109,ESP/GBR/FRA/DEU/ITA,Land and Freedom,Ken Loach,male,Spain/United Kingdom/France/Germany/Italy,1995,europe
+Q538412,152,ISL/NOR/SWE/NLD/FRA/DNK,Breaking the Waves,Lars von Trier,male,Denmark/Sweden/Netherlands/Norway/Iceland/France,1996,europe
+Q775970,90,GBR/USA,The Full Monty,Peter Cattaneo,male,United States of America/United Kingdom,1997,europe
+Q19355,116,ITA,Life is Beautiful,Roberto Benigni,male,Italy,1998,europe
+Q329805,104,FRA/ESP,All About My Mother,Pedro Almodóvar,male,Spain/France,1999,europe
+Q110365,140,ISL/NOR/ESP/SWE/NLD/DEU/GBR/FIN/DNK/USA/FRA/ITA/ARG,Dancer in the Dark,Lars von Trier,male,Spain/Sweden/Denmark/Netherlands/United Kingdom/Norway/Finland/United States of America/Iceland/France/Germany/Italy/Argentina,2000,europe
+Q484048,122,FRA,Amélie,Jean-Pierre Jeunet,male,France,2001,europe
+Q478780,112,ESP,Talk to Her,Pedro Almodóvar,male,Spain,2002,europe
+Q154817,121,DEU,Good Bye Lenin!,Wolfgang Becker,male,Germany,2003,europe
+Q325648,116,DEU/TUR,Head-On,Fatih Akin,male,Turkey/Germany,2004,europe
+Q383173,117,AUT/ITA/FRA/DEU,Caché,Michael Haneke,male,France/Austria/Italy/Germany,2005,europe
+Q153882,137,DEU,The Lives of Others,Florian Henckel von Donnersmarck,male,Germany,2006,europe
+Q238245,113,ROU,"4 Months, 3 Weeks and 2 Days",Cristian Mungiu,male,Romania,2007,europe
+Q1165770,135,ITA,Gomorrah,Matteo Garrone,male,Italy,2008,europe
+Q158023,144,AUT/ITA/FRA/DEU,The White Ribbon,Michael Haneke,male,France/Austria/Italy/Germany,2009,europe
+Q3331959,100,MEX/PER,Mancora,Racer Rodriguez/Ricardo de Montreuil,male,Peru/Mexico,2010,europe
+Q157879,128,GBR/FRA/DEU,The Ghost Writer,Roman Polanski,male,United Kingdom/France/Germany,2010,europe
+Q165699,130,SWE/DEU/FRA/DNK/ITA,Melancholia,Lars von Trier,male,Denmark/Sweden/France/Germany/Italy,2011,europe
+Q637820,127,AUT/FRA/DEU,Amour,Michael Haneke,male,France/Austria/Germany,2012,europe
+Q6379279,142,ITA/FRA,The Great Beauty,Paolo Sorrentino,male,France/Italy,2013,europe
+Q15087230,80,GBR/FRA/POL/DNK,Ida,Paweł Pawlikowski,male,Denmark/Poland/France/United Kingdom,2014,europe
+Q18703892,118,ITA/GBR/CHE/FRA,Youth,Paolo Sorrentino,male,United Kingdom/France/Switzerland/Italy,2015,europe
+Q23838395,162,AUT/DEU,Toni Erdmann,Maren Ade,female,Germany/Austria,2016,europe
+Q27237522,152,SWE/FRA/DNK/DEU,The Square,Ruben Östlund,male,Denmark/Sweden/France/Germany,2017,europe
+Q51834363,84,GBR/POL/FRA,Cold War,Paweł Pawlikowski,male,United Kingdom/Poland/France,2018,europe
+Q22001133,120,GBR/IRL/USA,The Favourite,Yorgos Lanthimos,male,United States of America/United Kingdom/Republic of Ireland,2019,europe
+Q69303989,117,SWE/DNK/NLD,Another Round,Thomas Vinterberg,male,Denmark/Sweden/Netherlands,2020,europe
+Q97765712,101,AUT/TUR/NOR/BIH/POL/DEU/FRA/NLD/ROU,"Quo Vadis, Aida?",Jasmila Žbanić,female,Netherlands/Norway/Romania/Poland/France/Germany/Bosnia and Herzegovina/Turkey/Austria,2021,europe
+Q97304180,149,SWE/DEU/GRC/USA/GBR/DNK/TUR/MEX/FRA,Triangle of Sadness,Ruben Östlund,male,Denmark/Sweden/United Kingdom/Mexico/Greece/United States of America/France/Germany/Turkey,2022,europe
+Q117037697,150,FRA,Anatomy of a Fall,Justine Triet,female,France,2023,europe

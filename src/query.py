@@ -83,6 +83,7 @@ def consecutive_parts(number_list: list[int]) -> list:
 def join_duplicates(df: pd.DataFrame):
     """find the duplicate film IDs and join them into single rows"""
     
+    df = df.dropna(subset="country_code")
     result_df = df.groupby("id").agg(lambda x: "/".join(set(x))).reset_index()
 
     for index in result_df.index:
@@ -141,16 +142,19 @@ def wikidata_to_df(data: dict) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    awards = list(utils.load_json("awards.json"))
-
-    for award in awards:
-        print(f"Processing {award}...")
+    award_names = list(utils.load_json("awards.json"))
+    award_dfs = []
+    
+    for award in award_names:
+        print(f"{award}: Start processing...")
         with open("query.sparql", "r") as file:
             query_unspecified = file.read()
         query_specified = specify_award(query_unspecified, award)
+        print(f"{award}: begin SPARQL request")
         data = query_wikidata(query_specified)
+        print(f"{award}: end SPARQL request")
         time.sleep(1)
-
+        
         df_raw = wikidata_to_df(data)
         check_df_for_completion(df_raw, award)
         df_cleaned = join_duplicates(df_raw)
@@ -159,3 +163,10 @@ if __name__ == "__main__":
         results_dir = ROOT_PATH / "results"
         assert results_dir.exists()
         df_sorted.to_csv(results_dir / f"{award}.csv", index=False, encoding="utf8")
+        
+        df_sorted["award"] = award
+        award_dfs.append(df_sorted)
+    
+    awards_df = pd.concat(award_dfs, ignore_index=True)
+    awards_df.to_csv(results_dir / "awards.csv",
+                     index=False, encoding="utf8")

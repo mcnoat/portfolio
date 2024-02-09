@@ -1,0 +1,38 @@
+id,duration,country_code,title,director,gender,country,year_awarded
+Q72325,84,POL,A Short Film About Killing,Krzysztof Kieślowski,male,Poland,1988
+Q1803756,125,ITA/FRA/GRC,Landscape in the Mist,Thodoros Angelopoulos,male,France/Greece/Italy,1989
+Q647044,108,ITA,Open Doors,Gianni Amelio,male,Italy,1990
+Q648032,95,GBR,Riff-Raff,Ken Loach,male,United Kingdom,1991
+Q647997,110,ITA/CHE/FRA,The Stolen Children,Gianni Amelio,male,France/Switzerland/Italy,1992
+Q1169942,120,FRA/SUN,Close to Eden,Nikita Mikhalkov,male,France/Soviet Union,1993
+Q1738422,116,ITA/FRA,Lamerica,Gianni Amelio,male,France/Italy,1994
+Q643805,109,ESP/GBR/FRA/DEU/ITA,Land and Freedom,Ken Loach,male,Spain/United Kingdom/France/Germany/Italy,1995
+Q538412,152,ISL/NOR/SWE/NLD/FRA/DNK,Breaking the Waves,Lars von Trier,male,Denmark/Sweden/Netherlands/Norway/Iceland/France,1996
+Q775970,90,GBR/USA,The Full Monty,Peter Cattaneo,male,United States of America/United Kingdom,1997
+Q19355,116,ITA,Life is Beautiful,Roberto Benigni,male,Italy,1998
+Q329805,104,FRA/ESP,All About My Mother,Pedro Almodóvar,male,Spain/France,1999
+Q110365,140,ISL/NOR/ESP/SWE/NLD/DEU/GBR/FIN/DNK/USA/FRA/ITA/ARG,Dancer in the Dark,Lars von Trier,male,Spain/Sweden/Denmark/Netherlands/United Kingdom/Norway/Finland/United States of America/Iceland/France/Germany/Italy/Argentina,2000
+Q484048,122,FRA,Amélie,Jean-Pierre Jeunet,male,France,2001
+Q478780,112,ESP,Talk to Her,Pedro Almodóvar,male,Spain,2002
+Q154817,121,DEU,Good Bye Lenin!,Wolfgang Becker,male,Germany,2003
+Q325648,116,DEU/TUR,Head-On,Fatih Akin,male,Turkey/Germany,2004
+Q383173,117,AUT/ITA/FRA/DEU,Caché,Michael Haneke,male,France/Austria/Italy/Germany,2005
+Q153882,137,DEU,The Lives of Others,Florian Henckel von Donnersmarck,male,Germany,2006
+Q238245,113,ROU,"4 Months, 3 Weeks and 2 Days",Cristian Mungiu,male,Romania,2007
+Q1165770,135,ITA,Gomorrah,Matteo Garrone,male,Italy,2008
+Q158023,144,AUT/ITA/FRA/DEU,The White Ribbon,Michael Haneke,male,France/Austria/Italy/Germany,2009
+Q3331959,100,MEX/PER,Mancora,Racer Rodriguez/Ricardo de Montreuil,male,Peru/Mexico,2010
+Q157879,128,GBR/FRA/DEU,The Ghost Writer,Roman Polanski,male,United Kingdom/France/Germany,2010
+Q165699,130,SWE/DEU/FRA/DNK/ITA,Melancholia,Lars von Trier,male,Denmark/Sweden/France/Germany/Italy,2011
+Q637820,127,AUT/FRA/DEU,Amour,Michael Haneke,male,France/Austria/Germany,2012
+Q6379279,142,ITA/FRA,The Great Beauty,Paolo Sorrentino,male,France/Italy,2013
+Q15087230,80,GBR/FRA/POL/DNK,Ida,Paweł Pawlikowski,male,Denmark/Poland/France/United Kingdom,2014
+Q18703892,118,ITA/GBR/CHE/FRA,Youth,Paolo Sorrentino,male,United Kingdom/France/Switzerland/Italy,2015
+Q23838395,162,AUT/DEU,Toni Erdmann,Maren Ade,female,Germany/Austria,2016
+Q27237522,152,SWE/FRA/DNK/DEU,The Square,Ruben Östlund,male,Denmark/Sweden/France/Germany,2017
+Q51834363,84,GBR/POL/FRA,Cold War,Paweł Pawlikowski,male,United Kingdom/Poland/France,2018
+Q22001133,120,GBR/IRL/USA,The Favourite,Yorgos Lanthimos,male,United States of America/United Kingdom/Republic of Ireland,2019
+Q69303989,117,SWE/DNK/NLD,Another Round,Thomas Vinterberg,male,Denmark/Sweden/Netherlands,2020
+Q97765712,101,AUT/TUR/NOR/BIH/POL/DEU/FRA/NLD/ROU,"Quo Vadis, Aida?",Jasmila Žbanić,female,Netherlands/Norway/Romania/Poland/France/Germany/Bosnia and Herzegovina/Turkey/Austria,2021
+Q97304180,149,SWE/DEU/GRC/USA/GBR/DNK/TUR/MEX/FRA,Triangle of Sadness,Ruben Östlund,male,Denmark/Sweden/United Kingdom/Mexico/Greece/United States of America/France/Germany/Turkey,2022
+Q117037697,150,FRA,Anatomy of a Fall,Justine Triet,female,France,2023
